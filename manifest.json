@@ -18,7 +18,7 @@
     }
   ],
 
-  "directories": [ "whatamiplaying-data" ],
+  "directories": [ "whatamiplaying" ],
   "enabled_without_gw2": false,
 
   "api_permissions": {

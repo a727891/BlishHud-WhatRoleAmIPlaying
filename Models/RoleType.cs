@@ -4,6 +4,8 @@ namespace Soeed.WhatAmIPlaying.Models
     {
         FullRandom,
         DPS,
+        PowerDPS,
+        ConditionDPS,
         Healer
     }
 } 

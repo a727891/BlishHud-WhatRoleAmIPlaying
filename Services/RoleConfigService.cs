@@ -43,7 +43,18 @@ namespace Soeed.WhatAmIPlaying.Services
             return roleType switch
             {
                 RoleType.DPS => _config.Roles
-                    .Where(r => r.RoleType == RoleType.DPS)
+                    .Where(r => r.RoleType == RoleType.DPS && 
+                               !r.ProvidesQuickness && !r.ProvidesAlacrity)
+                    .ToList(),
+                RoleType.PowerDPS => _config.Roles
+                    .Where(r => r.RoleType == RoleType.DPS && 
+                               string.Equals(r.Role, "Power", StringComparison.OrdinalIgnoreCase) &&
+                               !r.ProvidesQuickness && !r.ProvidesAlacrity)
+                    .ToList(),
+                RoleType.ConditionDPS => _config.Roles
+                    .Where(r => r.RoleType == RoleType.DPS && 
+                               string.Equals(r.Role, "Condition", StringComparison.OrdinalIgnoreCase) &&
+                               !r.ProvidesQuickness && !r.ProvidesAlacrity)
                     .ToList(),
                 RoleType.Healer => _config.Roles
                     .Where(r => r.RoleType == RoleType.Healer)

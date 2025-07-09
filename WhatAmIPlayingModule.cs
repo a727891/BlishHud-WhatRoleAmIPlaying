@@ -33,8 +33,8 @@ namespace Soeed.WhatAmIPlaying
 
         // Module constants
         public static string MODULE_VERSION = "0.1.0";
-        public static string DIRECTORY_PATH = "whatamiplaying-data";
-        public static string STATIC_HOST_URL = "https://bhm.blishhud.com/WhatAmIPlayingModule";
+        public static string DIRECTORY_PATH = "whatamiplaying";
+        public static string STATIC_HOST_URL = "https://bhm.blishhud.com/Soeed.WhatAmIPlaying";
 
         // Services
         public static RoleConfigService RoleConfig { get; set; } = null!;
@@ -121,16 +121,14 @@ namespace Soeed.WhatAmIPlaying
             _contextMenuStrip.AddMenuItem("-");
             
             // Add DPS options
-            _contextMenuStrip.AddMenuItem("DPS - Any").Click += (s, e) => GetRandomRole(RoleType.DPS);
+            _contextMenuStrip.AddMenuItem("DPS").Click += (s, e) => GetRandomRole(RoleType.DPS);
             _contextMenuStrip.AddMenuItem("DPS - Quickness").Click += (s, e) => GetRandomDPSWithBoon(true, false);
             _contextMenuStrip.AddMenuItem("DPS - Alacrity").Click += (s, e) => GetRandomDPSWithBoon(false, true);
-            _contextMenuStrip.AddMenuItem("DPS - Both Boons").Click += (s, e) => GetRandomDPSWithBoon(true, true);
             
             // Add Healer options
             _contextMenuStrip.AddMenuItem("Healer - Any").Click += (s, e) => GetRandomRole(RoleType.Healer);
             _contextMenuStrip.AddMenuItem("Healer - Quickness").Click += (s, e) => GetRandomHealerWithBoon(true, false);
             _contextMenuStrip.AddMenuItem("Healer - Alacrity").Click += (s, e) => GetRandomHealerWithBoon(false, true);
-            _contextMenuStrip.AddMenuItem("Healer - Both Boons").Click += (s, e) => GetRandomHealerWithBoon(true, true);
             
             
             
@@ -144,12 +142,12 @@ namespace Soeed.WhatAmIPlaying
             AsyncTexture2D Background = AsyncTexture2D.FromAssetId(155985);
             Rectangle SettingPanelRegion = new(40, 26, 913, 691);
             Rectangle SettingPanelContentRegion = new(40, 26, 913, 691);
-            Point SettingPanelWindowSize = new(600, 600);
+            Point SettingPanelWindowSize = new(425, 425);
             _mainWindow = new StandardWindow(Background, SettingPanelRegion, SettingPanelContentRegion, SettingPanelWindowSize)
             {
                 Emblem = AsyncTexture2D.FromAssetId(155985),
                 Title = "What Am I Playing?",
-                Subtitle = "Get random role suggestions",
+                // Subtitle = "Get random role suggestions",
                 Parent = GameService.Graphics.SpriteScreen,
                 SavesPosition = true,
                 Id = $"{nameof(WhatAmIPlayingModule)}_Main_123456"
@@ -199,7 +197,7 @@ namespace Soeed.WhatAmIPlaying
                 Size = new Point(120, 32),
                 Location = new Point(0, 40)
             };
-            powerButton.Click += (s, e) => GetRandomRole(RoleType.DPS);
+            powerButton.Click += (s, e) => GetRandomRole(RoleType.PowerDPS);
 
             var condiButton = new StandardButton
             {
@@ -208,7 +206,7 @@ namespace Soeed.WhatAmIPlaying
                 Size = new Point(120, 32),
                 Location = new Point(0, 80)
             };
-            condiButton.Click += (s, e) => GetRandomRole(RoleType.DPS);
+            condiButton.Click += (s, e) => GetRandomRole(RoleType.ConditionDPS);
 
             // Column 2
             var boonDpsButton = new StandardButton
@@ -282,7 +280,7 @@ namespace Soeed.WhatAmIPlaying
                 ControlPadding = new Vector2(5, 0),
                 Parent = _roleDisplayPanel,
                 Location = new Point(10, 10),
-                Size = new Point(80, 40)
+                Size = new Point(80, 80)
             };
 
             _professionIcon = new Image
@@ -453,7 +451,7 @@ namespace Soeed.WhatAmIPlaying
                 // Display the role in the UI
                 DisplayRole(suggestion);
                 
-                ScreenNotification.ShowNotification($"Try: {suggestion.Profession} - {suggestion.EliteSpec} ({suggestion.Role})", ScreenNotification.NotificationType.Info);
+                ScreenNotification.ShowNotification($"Try: {suggestion.Description}", ScreenNotification.NotificationType.Info);
                 
                 Logger.Info($"Selected role: {suggestion.Profession} - {suggestion.EliteSpec} ({suggestion.Role})");
             }
