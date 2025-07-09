@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Blish_HUD;
 using Blish_HUD.Modules.Managers;
 using Gw2Sharp.WebApi.V2.Models;
-using Soeed.WhatAmIPlaying.Models;
+using Soeed.WhatRoleAmIPlaying.Models;
 
-namespace Soeed.WhatAmIPlaying.Services
+namespace Soeed.WhatRoleAmIPlaying.Services
 {
     public class Gw2ApiService
     {
@@ -77,7 +77,7 @@ namespace Soeed.WhatAmIPlaying.Services
         public async Task<List<RoleSuggestion>> GetAvailableRolesAsync(RoleType roleType)
         {
             var unlockedSpecs = await GetUnlockedEliteSpecsAsync();
-            var allRoles = Soeed.WhatAmIPlaying.WhatAmIPlayingModule.RoleConfig.GetAllRoles(roleType);
+            var allRoles = Soeed.WhatRoleAmIPlaying.WhatRoleAmIPlayingModule.RoleConfig.GetAllRoles(roleType);
             
             // Filter roles to only include unlocked elite specs
             var availableRoles = allRoles.Where(role => unlockedSpecs.Contains(role.EliteSpec)).ToList();

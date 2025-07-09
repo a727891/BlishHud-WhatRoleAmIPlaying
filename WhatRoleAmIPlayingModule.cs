@@ -16,15 +16,15 @@ using Microsoft.Xna.Framework.Graphics;
 using Color = Microsoft.Xna.Framework.Color;
 using Point = Microsoft.Xna.Framework.Point;
 using Rectangle = Microsoft.Xna.Framework.Rectangle;
-using Soeed.WhatAmIPlaying.Services;
-using Soeed.WhatAmIPlaying.Models;
+using Soeed.WhatRoleAmIPlaying.Services;
+using Soeed.WhatRoleAmIPlaying.Models;
 
-namespace Soeed.WhatAmIPlaying
+namespace Soeed.WhatRoleAmIPlaying
 {
     [Export(typeof(Module))]
-    public class WhatAmIPlayingModule : Module
+    public class WhatRoleAmIPlayingModule : Module
     {
-        private static readonly Logger Logger = Logger.GetLogger<WhatAmIPlayingModule>();
+        private static readonly Logger Logger = Logger.GetLogger<WhatRoleAmIPlayingModule>();
 
         internal SettingsManager SettingsManager => this.ModuleParameters.SettingsManager;
         internal ContentsManager ContentsManager => this.ModuleParameters.ContentsManager;
@@ -33,8 +33,8 @@ namespace Soeed.WhatAmIPlaying
 
         // Module constants
         public static string MODULE_VERSION = "0.1.0";
-        public static string DIRECTORY_PATH = "whatamiplaying";
-        public static string STATIC_HOST_URL = "https://bhm.blishhud.com/Soeed.WhatAmIPlaying";
+        public static string DIRECTORY_PATH = "whatroleamiplaying";
+        public static string STATIC_HOST_URL = "https://bhm.blishhud.com/Soeed.WhatRoleAmIPlaying";
 
         // Services
         public static RoleConfigService RoleConfig { get; set; } = null!;
@@ -55,9 +55,9 @@ namespace Soeed.WhatAmIPlaying
         private string _currentBuildUrl = string.Empty;
 
         [ImportingConstructor]
-        public WhatAmIPlayingModule([Import("ModuleParameters")] ModuleParameters moduleParameters) : base(moduleParameters)
+        public WhatRoleAmIPlayingModule([Import("ModuleParameters")] ModuleParameters moduleParameters) : base(moduleParameters)
         {
-            WhatAmIPlayingModuleInstance = this;
+            WhatRoleAmIPlayingModuleInstance = this;
         }
 
         protected override void DefineSettings(SettingCollection settings)
@@ -84,7 +84,7 @@ namespace Soeed.WhatAmIPlaying
             CreateCornerIcon();
             CreateMainWindow();
 
-            Logger.Info("What Am I Playing module loaded successfully");
+            Logger.Info("What Role Am I Playing module loaded successfully");
         }
 
         protected override void Update(GameTime gameTime)
@@ -99,7 +99,7 @@ namespace Soeed.WhatAmIPlaying
             _mainWindow?.Dispose();
 
             // Clear static members to prevent memory leaks
-            WhatAmIPlayingModuleInstance = null;
+            WhatRoleAmIPlayingModuleInstance = null;
         }
 
         private void CreateCornerIcon()
@@ -150,7 +150,7 @@ namespace Soeed.WhatAmIPlaying
                 // Subtitle = "Get random role suggestions",
                 Parent = GameService.Graphics.SpriteScreen,
                 SavesPosition = true,
-                Id = $"{nameof(WhatAmIPlayingModule)}_Main_123456"
+                Id = $"{nameof(WhatRoleAmIPlayingModule)}_Main_123456"
             };
 
             // Create main container
@@ -548,6 +548,6 @@ namespace Soeed.WhatAmIPlaying
             }
         }
 
-        internal static Soeed.WhatAmIPlaying.WhatAmIPlayingModule WhatAmIPlayingModuleInstance;
+        internal static Soeed.WhatRoleAmIPlaying.WhatRoleAmIPlayingModule WhatRoleAmIPlayingModuleInstance;
     }
 }

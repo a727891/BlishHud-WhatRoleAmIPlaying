@@ -9,8 +9,8 @@ A BlishHUD module that helps you decide what to play by offering random role sug
 1. Install Visual Studio 2022 if you don't have it yet. The community version is free: https://visualstudio.microsoft.com/downloads/
 1. Download the newest Blish HUD version from the website and extract the blish zip: https://blishhud.com/
 1. Download the What Am I Playing module code or use git clone.
-1. Change the executablePath in \WhatAmIPlayingModule\Properties\launchSettings.json to where the blishhud.exe from the extracted blish zip is.
-1. Open the WhatAmIPlayingModule.sln in Visual Studio. 
+1. Change the executablePath in \WhatRoleAmIPlayingModule\Properties\launchSettings.json to where the blishhud.exe from the extracted blish zip is.
+1. Open the WhatRoleAmIPlayingModule.sln in Visual Studio. 
 1. Right-click on the Solution icon in the Solution Explorer and select **Restore Nuget packages** (may not be necessary when using visual studio 2022)
 1. Start Guild Wars 2.
 1. In the visual studio menu bar click on the dropdown next to the green arrow. Select "gw2".

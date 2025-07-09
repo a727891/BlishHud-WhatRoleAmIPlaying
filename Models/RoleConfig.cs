@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace Soeed.WhatAmIPlaying.Models
+namespace Soeed.WhatRoleAmIPlaying.Models
 {
     [Serializable]
     public class RoleConfig

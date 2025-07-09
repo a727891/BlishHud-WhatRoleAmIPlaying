@@ -1,15 +1,15 @@
 {
-  "name": "What Am I Playing?",
+  "name": "What Role Am I Playing?",
   "version": "0.1.0",
-  "namespace": "Soeed.WhatAmIPlaying",
-  "package": "WhatAmIPlayingModule.dll",
+  "namespace": "Soeed.WhatRoleAmIPlaying",
+  "package": "WhatRoleAmIPlayingModule.dll",
   "manifest_version": 1,
 
   "description": "A BlishHUD module that helps you pick a role to play.",
   "dependencies": {
     "bh.blishhud": ">=1.2.0"
   },
-  "url": "https://github.com/yourusername/WhatAmIPlaying",
+  "url": "https://github.com/a727891/BlishHud-WhatRoleAmIPlaying",
   "contributors": [
     {
       "name": "Soeed",
@@ -18,7 +18,7 @@
     }
   ],
 
-  "directories": [ "whatamiplaying" ],
+  "directories": [ "WhatRoleAmIPlaying" ],
   "enabled_without_gw2": false,
 
   "api_permissions": {

@@ -1,7 +1,7 @@
 using Blish_HUD.Settings;
-using Soeed.WhatAmIPlaying.Models;
+using Soeed.WhatRoleAmIPlaying.Models;
 
-namespace Soeed.WhatAmIPlaying.Services
+namespace Soeed.WhatRoleAmIPlaying.Services
 {
     public class SettingService
     {

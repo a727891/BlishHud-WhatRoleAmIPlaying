@@ -1,10 +1,10 @@
 using Blish_HUD;
-using Soeed.WhatAmIPlaying.Models;
+using Soeed.WhatRoleAmIPlaying.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Soeed.WhatAmIPlaying.Services
+namespace Soeed.WhatRoleAmIPlaying.Services
 {
     public class RoleConfigService
     {
@@ -22,14 +22,14 @@ namespace Soeed.WhatAmIPlaying.Services
             
             if (!availableRoles.Any())
             {
-                Logger.GetLogger<Soeed.WhatAmIPlaying.WhatAmIPlayingModule>().Warn($"No roles available for type: {roleType}");
+                Logger.GetLogger<Soeed.WhatRoleAmIPlaying.WhatRoleAmIPlayingModule>().Warn($"No roles available for type: {roleType}");
                 return null;
             }
 
             var randomIndex = _random.Next(availableRoles.Count);
             var selectedRole = availableRoles[randomIndex];
             
-            Logger.GetLogger<Soeed.WhatAmIPlaying.WhatAmIPlayingModule>().Info($"Selected role: {selectedRole}");
+            Logger.GetLogger<Soeed.WhatRoleAmIPlaying.WhatRoleAmIPlayingModule>().Info($"Selected role: {selectedRole}");
             return selectedRole;
         }
 

@@ -1,7 +1,7 @@
 using System;
 using Newtonsoft.Json;
 
-namespace Soeed.WhatAmIPlaying.Models
+namespace Soeed.WhatRoleAmIPlaying.Models
 {
     [Serializable]
     public class RoleSuggestion

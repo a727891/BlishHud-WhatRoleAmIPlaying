@@ -1,11 +1,11 @@
 using Blish_HUD;
 using Newtonsoft.Json;
-using Soeed.WhatAmIPlaying.Models;
+using Soeed.WhatRoleAmIPlaying.Models;
 using System;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace Soeed.WhatAmIPlaying.Services
+namespace Soeed.WhatRoleAmIPlaying.Services
 {
     public class DynamicConfigService : IDisposable
     {
@@ -26,7 +26,7 @@ namespace Soeed.WhatAmIPlaying.Services
             }
             catch (Exception ex)
             {
-                Logger.GetLogger<WhatAmIPlayingModule>().Warn(ex, $"Failed to fetch config from {url}");
+                Logger.GetLogger<WhatRoleAmIPlayingModule>().Warn(ex, $"Failed to fetch config from {url}");
                 return default;
             }
         }
@@ -34,21 +34,21 @@ namespace Soeed.WhatAmIPlaying.Services
         public async Task<RoleConfig?> LoadConfig()
         {
 #if DEBUG
-            // var path = $"{WhatAmIPlayingModule.STATIC_HOST_URL}/roles.json";
+            // var path = $"{WhatRoleAmIPlayingModule.STATIC_HOST_URL}/roles.json";
             var path = $"http://localhost:3000/roles.json";
 #else
-            var path = $"{WhatAmIPlayingModule.STATIC_HOST_URL}/roles.json";
+            var path = $"{WhatRoleAmIPlayingModule.STATIC_HOST_URL}/roles.json";
 #endif
-            Logger.GetLogger<WhatAmIPlayingModule>().Info($"Loading role config from {path}");
+            Logger.GetLogger<WhatRoleAmIPlayingModule>().Info($"Loading role config from {path}");
             var config = await Fetch<RoleConfig>(path);
             
             if (config == null)
             {
-                Logger.GetLogger<WhatAmIPlayingModule>().Error("Failed to load role configuration");
+                Logger.GetLogger<WhatRoleAmIPlayingModule>().Error("Failed to load role configuration");
                 return new RoleConfig();
             }
 
-            Logger.GetLogger<WhatAmIPlayingModule>().Info($"Loaded {config.Roles.Count} roles from configuration");
+            Logger.GetLogger<WhatRoleAmIPlayingModule>().Info($"Loaded {config.Roles.Count} roles from configuration");
             return config;
         }
 

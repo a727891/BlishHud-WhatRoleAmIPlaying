@@ -1,4 +1,4 @@
-namespace Soeed.WhatAmIPlaying.Models
+namespace Soeed.WhatRoleAmIPlaying.Models
 {
     public enum RoleType
     {
