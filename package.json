@@ -1,5 +1,5 @@
 {
-  "name": "whatamiplaying-dev-server",
+  "name": "WhatRoleAmIPlaying-dev-server",
   "version": "1.0.0",
   "description": "Development server for What Am I Playing BlishHUD module",
   "main": "server.js",
