@@ -1,11 +1,11 @@
 {
   "name": "What Role Am I Playing?",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "namespace": "Soeed.WhatRoleAmIPlaying",
   "package": "WhatRoleAmIPlayingModule.dll",
   "manifest_version": 1,
 
-  "description": "A BlishHUD module that helps you pick a role to play.",
+  "description": "A module that suggests a random raid build to play next based on a role you select. Perfect for indecisive commanders!",
   "dependencies": {
     "bh.blishhud": ">=1.2.0"
   },

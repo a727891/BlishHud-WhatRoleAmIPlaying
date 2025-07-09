@@ -33,7 +33,7 @@ namespace Soeed.WhatRoleAmIPlaying
 
         // Module constants
         public static string MODULE_VERSION = "0.1.0";
-        public static string DIRECTORY_PATH = "whatroleamiplaying";
+        public static string DIRECTORY_PATH = "WhatRoleAmIPlaying";
         public static string STATIC_HOST_URL = "https://bhm.blishhud.com/Soeed.WhatRoleAmIPlaying";
 
         // Services
