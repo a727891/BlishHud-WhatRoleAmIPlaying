@@ -1,0 +1,22 @@
+{
+  "profiles": {
+"powershell": {
+      "commandName": "Executable",
+      "executablePath": "E:\\Games\\Guild Wars 2\\addons\\Blish.HUD.0.11.7\\Blish HUD.exe",
+      "commandLineArgs": "--debug --process powershell --window ConsoleWindowClass --module \"$(ProjectDir)\\$(BaseOutputPath)\\$(Configuration)/$(TargetFramework)\\$(TargetName).bhm\" --settings \".\\Settings_$(TargetName)\"",
+      "workingDirectory": "E:\\Games\\Guild Wars 2\\addons\\Blish.HUD.0.11.7"
+    },
+    "gw2": {
+      "commandName": "Executable",
+      "executablePath": "E:\\Games\\Guild Wars 2\\addons\\Blish.HUD.0.11.7\\Blish HUD.exe",
+      "commandLineArgs": "--debug --module \"$(ProjectDir)\\$(BaseOutputPath)\\$(Configuration)/$(TargetFramework)\\$(TargetName).bhm\" --settings \".\\Settings_$(TargetName)\"",
+      "workingDirectory": "E:\\Games\\Guild Wars 2\\addons\\Blish.HUD.0.11.7"
+    },
+    "mumblelink1": {
+      "commandName": "Executable",
+      "executablePath": "E:\\Games\\Guild Wars 2\\addons\\Blish.HUD.0.11.7\\Blish HUD.exe",
+      "commandLineArgs": "--debug --module \"$(ProjectDir)\\$(BaseOutputPath)\\$(Configuration)/$(TargetFramework)\\$(TargetName).bhm\" --mumble \"MumbleLink_1\" --settings \".\\Settings_$(TargetName)\"",
+      "workingDirectory": "E:\\Games\\Guild Wars 2\\addons\\Blish.HUD.0.11.7"
+    }
+  }
+}
