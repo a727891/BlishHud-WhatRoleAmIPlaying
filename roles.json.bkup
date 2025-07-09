@@ -1,0 +1,152 @@
+{
+    "version": "0.1.0",
+    "last_updated": "2024-07-08T17:00:00Z",
+    "professions": [
+      { "name": "Guardian", "id": 1, "icon": "156633" },
+      { "name": "Warrior", "id": 2, "icon": "156642" },
+      { "name": "Engineer", "id": 3, "icon": "156631" },
+      { "name": "Ranger", "id": 4, "icon": "156639" },
+      { "name": "Thief", "id": 5, "icon": "103581" },
+      { "name": "Elementalist", "id": 6, "icon": "156629" },
+      { "name": "Mesmer", "id": 7, "icon": "156635" },
+      { "name": "Necromancer", "id": 8, "icon": "156637" },
+      { "name": "Revenant", "id": 9, "icon": "965717" }
+    ],
+    "elite_specs": [
+      { "name": "Dragonhunter", "id": 27, "profession": "Guardian", "icon": "1128572", "background": "1012076" },
+      { "name": "Firebrand", "id": 62, "profession": "Guardian", "icon": "1770210", "background": "2479309" },
+      { "name": "Willbender", "id": 68, "profession": "Guardian", "icon": "2479351", "background": "2491509" },
+  
+      { "name": "Berserker", "id": 18, "profession": "Warrior", "icon": "1128566", "background": "1012110" },
+      { "name": "Spellbreaker", "id": 61, "profession": "Warrior", "icon": "1770222", "background": "2479310" },
+      { "name": "Bladesworn", "id": 70, "profession": "Warrior", "icon": "2491563", "background": "2491512" },
+  
+      { "name": "Scrapper", "id": 43, "profession": "Engineer", "icon": "1128580", "background": "1012042" },
+      { "name": "Holosmith", "id": 57, "profession": "Engineer", "icon": "1770224", "background": "2479311" },
+      { "name": "Mechanist", "id": 74, "profession": "Engineer", "icon": "2503656", "background": "2503611" },
+  
+      { "name": "Druid", "id": 5, "profession": "Ranger", "icon": "1128574", "background": "1012077" },
+      { "name": "Soulbeast", "id": 55, "profession": "Ranger", "icon": "1770214", "background": "2479312" },
+      { "name": "Untamed", "id": 72, "profession": "Ranger", "icon": "2503660", "background": "2503612" },
+  
+      { "name": "Daredevil", "id": 7, "profession": "Thief", "icon": "1128570", "background": "1012101" },
+      { "name": "Deadeye", "id": 58, "profession": "Thief", "icon": "1770212", "background": "2479313" },
+      { "name": "Specter", "id": 71, "profession": "Thief", "icon": "2503664", "background": "2503613" },
+  
+      { "name": "Tempest", "id": 48, "profession": "Elementalist", "icon": "1128582", "background": "1012075" },
+      { "name": "Weaver", "id": 56, "profession": "Elementalist", "icon": "1670505", "background": "2479314" },
+      { "name": "Catalyst", "id": 67, "profession": "Elementalist", "icon": "2491555", "background": "2491510" },
+  
+      { "name": "Chronomancer", "id": 40, "profession": "Mesmer", "icon": "1128568", "background": "1012081" },
+      { "name": "Mirage", "id": 59, "profession": "Mesmer", "icon": "1770216", "background": "2479315" },
+      { "name": "Virtuoso", "id": 69, "profession": "Mesmer", "icon": "2479355", "background": "2491511" },
+  
+      { "name": "Reaper", "id": 34, "profession": "Necromancer", "icon": "1128578", "background": "1012082" },
+      { "name": "Scourge", "id": 60, "profession": "Necromancer", "icon": "1770220", "background": "2479316" },
+      { "name": "Harbinger", "id": 75, "profession": "Necromancer", "icon": "2479359", "background": "2503617" },
+  
+      { "name": "Herald", "id": 52, "profession": "Revenant", "icon": "1128576", "background": "1012083" },
+      { "name": "Renegade", "id": 63, "profession": "Revenant", "icon": "1770218", "background": "2479317" },
+      { "name": "Vindicator", "id": 76, "profession": "Revenant", "icon": "2491559", "background": "2491511" }
+    ],
+        "roles": [
+      { "profession": "Guardian", "elite_spec": "Dragonhunter", "role": "Power DPS", "role_type": "DPS", "description": "Deal power damage as Dragonhunter.", "build_url": "https://snowcrows.com/builds/guardian/dragonhunter/power-dragonhunter" },
+
+      { "profession": "Guardian", "elite_spec": "Firebrand", "role": "Condition DPS", "role_type": "DPS", "description": "Deal condition damage as Firebrand.", "build_url": "https://snowcrows.com/builds/guardian/firebrand/condition-firebrand" },
+      { "profession": "Guardian", "elite_spec": "Firebrand", "role": "Condition Quickness", "role_type": "Quickness", "description": "Provide condition damage and quickness as Firebrand.", "build_url": "https://snowcrows.com/builds/guardian/firebrand/condition-quickness-firebrand" },
+      { "profession": "Guardian", "elite_spec": "Firebrand", "role": "Heal Quickness", "role_type": "HealQuick", "description": "Heal and provide quickness as Firebrand.", "build_url": "https://snowcrows.com/builds/guardian/firebrand/heal-quickness-firebrand" },
+
+      { "profession": "Guardian", "elite_spec": "Willbender", "role": "Power DPS", "role_type": "DPS", "description": "Deal power damage as Willbender.", "build_url": "https://snowcrows.com/builds/guardian/willbender/power-willbender" },
+      { "profession": "Guardian", "elite_spec": "Willbender", "role": "Power Alacrity", "role_type": "Alacrity", "description": "Deal power damage and provide alacrity as Willbender.", "build_url": "https://snowcrows.com/builds/guardian/willbender/power-alacrity-willbender" },
+      { "profession": "Guardian", "elite_spec": "Willbender", "role": "Condition DPS", "role_type": "DPS", "description": "Deal condition damage as Willbender.", "build_url": "https://snowcrows.com/builds/guardian/willbender/condition-willbender" },
+      { "profession": "Guardian", "elite_spec": "Willbender", "role": "Heal Alacrity", "role_type": "HealAlac", "description": "Heal and provide alacrity as Willbender.", "build_url": "https://snowcrows.com/builds/guardian/willbender/heal-alacrity-willbender" },
+
+      { "profession": "Warrior", "elite_spec": "Berserker", "role": "Power DPS", "role_type": "DPS", "description": "Deal power damage as Berserker.", "build_url": "https://snowcrows.com/builds/warrior/berserker/power-berserker" },
+      { "profession": "Warrior", "elite_spec": "Berserker", "role": "Condition DPS", "role_type": "DPS", "description": "Deal condition damage as Berserker.", "build_url": "https://snowcrows.com/builds/warrior/berserker/condition-berserker" },
+      { "profession": "Warrior", "elite_spec": "Berserker", "role": "Power Quickness", "role_type": "Quickness", "description": "Deal power damage and provide quickness as Berserker.", "build_url": "https://snowcrows.com/builds/warrior/berserker/power-quickness-berserker" },
+      { "profession": "Warrior", "elite_spec": "Berserker", "role": "Heal Quickness", "role_type": "HealQuick", "description": "Heal and provide quickness as Berserker.", "build_url": "https://snowcrows.com/builds/warrior/berserker/heal-quickness-berserker" },
+
+      { "profession": "Warrior", "elite_spec": "Spellbreaker", "role": "Power DPS", "role_type": "DPS", "description": "Deal power damage as Spellbreaker.", "build_url": "https://snowcrows.com/builds/warrior/spellbreaker/power-spellbreaker" },
+
+      { "profession": "Warrior", "elite_spec": "Bladesworn", "role": "Power DPS", "role_type": "DPS", "description": "Deal power damage as Bladesworn.", "build_url": "https://snowcrows.com/builds/warrior/bladesworn/power-bladesworn" },
+      { "profession": "Warrior", "elite_spec": "Bladesworn", "role": "Power Alacrity", "role_type": "Alacrity", "description": "Deal power damage and provide alacrity as Bladesworn.", "build_url": "https://snowcrows.com/builds/warrior/bladesworn/power-alacrity-bladesworn" },
+
+      { "profession": "Engineer", "elite_spec": "Scrapper", "role": "Power DPS", "role_type": "DPS", "description": "Deal power damage as Scrapper.", "build_url": "https://snowcrows.com/builds/engineer/scrapper/power-scrapper" },
+      { "profession": "Engineer", "elite_spec": "Scrapper", "role": "Power Quickness", "role_type": "Quickness", "description": "Deal power damage and provide quickness as Scrapper.", "build_url": "https://snowcrows.com/builds/engineer/scrapper/power-quickness-scrapper" },
+      { "profession": "Engineer", "elite_spec": "Scrapper", "role": "Heal Quickness", "role_type": "HealQuick", "description": "Heal and provide quickness as Scrapper.", "build_url": "https://snowcrows.com/builds/engineer/scrapper/heal-quickness-scrapper" },
+
+      { "profession": "Engineer", "elite_spec": "Holosmith", "role": "Power DPS", "role_type": "DPS", "description": "Deal power damage as Holosmith.", "build_url": "https://snowcrows.com/builds/engineer/holosmith/power-holosmith" },
+      { "profession": "Engineer", "elite_spec": "Holosmith", "role": "Condition DPS", "role_type": "DPS", "description": "Deal condition damage as Holosmith.", "build_url": "https://snowcrows.com/builds/engineer/holosmith/condition-holosmith" },
+
+      { "profession": "Engineer", "elite_spec": "Mechanist", "role": "Power Alacrity", "role_type": "Alacrity", "description": "Deal power damage and provide alacrity as Mechanist.", "build_url": "https://snowcrows.com/builds/engineer/mechanist/power-alacrity-mechanist" },
+      { "profession": "Engineer", "elite_spec": "Mechanist", "role": "Condition DPS", "role_type": "DPS", "description": "Deal condition damage as Mechanist.", "build_url": "https://snowcrows.com/builds/engineer/mechanist/condition-mechanist" },
+      { "profession": "Engineer", "elite_spec": "Mechanist", "role": "Condition Alacrity", "role_type": "Alacrity", "description": "Deal condition damage and provide alacrity as Mechanist.", "build_url": "https://snowcrows.com/builds/engineer/mechanist/condition-alacrity-mechanist" },
+      { "profession": "Engineer", "elite_spec": "Mechanist", "role": "Heal Alacrity", "role_type": "HealAlac", "description": "Heal and provide alacrity as Mechanist.", "build_url": "https://snowcrows.com/builds/engineer/mechanist/heal-alacrity-mechanist" },
+
+      { "profession": "Ranger", "elite_spec": "Druid", "role": "Heal Alacrity", "role_type": "HealAlac", "description": "Heal and provide alacrity as Druid.", "build_url": "https://snowcrows.com/builds/ranger/druid/heal-alacrity-druid" },
+
+      { "profession": "Ranger", "elite_spec": "Soulbeast", "role": "Power DPS", "role_type": "DPS", "description": "Deal power damage as Soulbeast.", "build_url": "https://snowcrows.com/builds/ranger/soulbeast/power-soulbeast" },
+
+      { "profession": "Ranger", "elite_spec": "Untamed", "role": "Condition Quickness", "role_type": "Quickness", "description": "Deal condition damage and provide quickness as Untamed.", "build_url": "https://snowcrows.com/builds/ranger/untamed/condition-quickness-untamed" },
+
+      { "profession": "Thief", "elite_spec": "Daredevil", "role": "Power DPS", "role_type": "DPS", "description": "Deal power damage as Daredevil.", "build_url": "https://snowcrows.com/builds/thief/daredevil/power-daredevil" },
+
+      { "profession": "Thief", "elite_spec": "Deadeye", "role": "Power DPS", "role_type": "DPS", "description": "Deal power damage as Deadeye.", "build_url": "https://snowcrows.com/builds/thief/deadeye/power-deadeye" },
+      { "profession": "Thief", "elite_spec": "Deadeye", "role": "Condition Quickness", "role_type": "Quickness", "description": "Deal condition damage and provide quickness as Deadeye.", "build_url": "https://snowcrows.com/builds/thief/deadeye/condition-quickness-deadeye" },
+
+      { "profession": "Thief", "elite_spec": "Specter", "role": "Condition DPS", "role_type": "DPS", "description": "Deal condition damage as Specter.", "build_url": "https://snowcrows.com/builds/thief/specter/condition-specter" },
+      { "profession": "Thief", "elite_spec": "Specter", "role": "Condition Alacrity", "role_type": "Alacrity", "description": "Deal condition damage and provide alacrity as Specter.", "build_url": "https://snowcrows.com/builds/thief/specter/condition-alacrity-specter" },
+      { "profession": "Thief", "elite_spec": "Specter", "role": "Heal Alacrity", "role_type": "HealAlac", "description": "Heal and provide alacrity as Specter.", "build_url": "https://snowcrows.com/builds/thief/specter/heal-alacrity-specter" },
+
+      { "profession": "Elementalist", "elite_spec": "Tempest", "role": "Power DPS", "role_type": "DPS", "description": "Deal power damage as Tempest.", "build_url": "https://snowcrows.com/builds/elementalist/tempest/power-tempest" },
+      { "profession": "Elementalist", "elite_spec": "Tempest", "role": "Condition DPS", "role_type": "DPS", "description": "Deal condition damage as Tempest.", "build_url": "https://snowcrows.com/builds/elementalist/tempest/condition-tempest" },
+      { "profession": "Elementalist", "elite_spec": "Tempest", "role": "Heal Alacrity", "role_type": "HealAlac", "description": "Heal and provide alacrity as Tempest.", "build_url": "https://snowcrows.com/builds/elementalist/tempest/heal-alacrity-tempest" },
+      { "profession": "Elementalist", "elite_spec": "Tempest", "role": "Condition Alacrity", "role_type": "Alacrity", "description": "Deal condition damage and provide alacrity as Tempest.", "build_url": "https://snowcrows.com/builds/elementalist/tempest/condition-alacrity-tempest" },
+      { "profession": "Elementalist", "elite_spec": "Tempest", "role": "Power Alacrity", "role_type": "Alacrity", "description": "Deal power damage and provide alacrity as Tempest.", "build_url": "https://snowcrows.com/builds/elementalist/tempest/power-alacrity-tempest" },
+
+      { "profession": "Elementalist", "elite_spec": "Weaver", "role": "Power DPS", "role_type": "DPS", "description": "Deal power damage as Weaver.", "build_url": "https://snowcrows.com/builds/elementalist/weaver/power-weaver" },
+      { "profession": "Elementalist", "elite_spec": "Weaver", "role": "Condition DPS", "role_type": "DPS", "description": "Deal condition damage as Weaver.", "build_url": "https://snowcrows.com/builds/elementalist/weaver/condition-weaver" },
+
+      { "profession": "Elementalist", "elite_spec": "Catalyst", "role": "Power DPS", "role_type": "DPS", "description": "Deal power damage as Catalyst.", "build_url": "https://snowcrows.com/builds/elementalist/catalyst/power-catalyst" },
+      { "profession": "Elementalist", "elite_spec": "Catalyst", "role": "Power Quickness", "role_type": "Quickness", "description": "Deal power damage and provide quickness as Catalyst.", "build_url": "https://snowcrows.com/builds/elementalist/catalyst/power-quickness-catalyst" },
+      { "profession": "Elementalist", "elite_spec": "Catalyst", "role": "Heal Quickness", "role_type": "HealQuick", "description": "Heal and provide quickness as Catalyst.", "build_url": "https://snowcrows.com/builds/elementalist/catalyst/heal-quickness-catalyst" },
+
+      { "profession": "Mesmer", "elite_spec": "Chronomancer", "role": "Power DPS", "role_type": "DPS", "description": "Deal power damage as Chronomancer.", "build_url": "https://snowcrows.com/builds/mesmer/chronomancer/power-chronomancer" },
+      { "profession": "Mesmer", "elite_spec": "Chronomancer", "role": "Condition DPS", "role_type": "DPS", "description": "Deal condition damage as Chronomancer.", "build_url": "https://snowcrows.com/builds/mesmer/chronomancer/condition-chronomancer" },
+      { "profession": "Mesmer", "elite_spec": "Chronomancer", "role": "Power Boon", "role_type": "Quickness", "description": "Deal power damage and provide boons as Chronomancer.", "build_url": "https://snowcrows.com/builds/mesmer/chronomancer/power-boon-chronomancer" },
+      { "profession": "Mesmer", "elite_spec": "Chronomancer", "role": "Condition Boon", "role_type": "Quickness", "description": "Deal condition damage and provide boons as Chronomancer.", "build_url": "https://snowcrows.com/builds/mesmer/chronomancer/condition-boon-chronomancer" },
+      { "profession": "Mesmer", "elite_spec": "Chronomancer", "role": "Heal Boon", "role_type": "HealQuick", "description": "Heal and provide boons as Chronomancer.", "build_url": "https://snowcrows.com/builds/mesmer/chronomancer/heal-boon-chronomancer" },
+
+      { "profession": "Mesmer", "elite_spec": "Mirage", "role": "Condition DPS", "role_type": "DPS", "description": "Deal condition damage as Mirage.", "build_url": "https://snowcrows.com/builds/mesmer/mirage/condition-mirage" },
+      { "profession": "Mesmer", "elite_spec": "Mirage", "role": "Condition Alacrity", "role_type": "Alacrity", "description": "Deal condition damage and provide alacrity as Mirage.", "build_url": "https://snowcrows.com/builds/mesmer/mirage/condition-alacrity-mirage" },
+      { "profession": "Mesmer", "elite_spec": "Mirage", "role": "Heal Alacrity", "role_type": "HealAlac", "description": "Heal and provide alacrity as Mirage.", "build_url": "https://snowcrows.com/builds/mesmer/mirage/heal-alacrity-mirage" },
+
+      { "profession": "Mesmer", "elite_spec": "Virtuoso", "role": "Power DPS", "role_type": "DPS", "description": "Deal power damage as Virtuoso.", "build_url": "https://snowcrows.com/builds/mesmer/virtuoso/power-virtuoso" },
+      { "profession": "Mesmer", "elite_spec": "Virtuoso", "role": "Condition DPS", "role_type": "DPS", "description": "Deal condition damage as Virtuoso.", "build_url": "https://snowcrows.com/builds/mesmer/virtuoso/condition-virtuoso" },
+
+      { "profession": "Necromancer", "elite_spec": "Reaper", "role": "Power DPS", "role_type": "DPS", "description": "Deal power damage as Reaper.", "build_url": "https://snowcrows.com/builds/necromancer/reaper/power-reaper" },
+      { "profession": "Necromancer", "elite_spec": "Reaper", "role": "Condition DPS", "role_type": "DPS", "description": "Deal condition damage as Reaper.", "build_url": "https://snowcrows.com/builds/necromancer/reaper/condition-reaper" },
+
+      { "profession": "Necromancer", "elite_spec": "Scourge", "role": "Condition DPS", "role_type": "DPS", "description": "Deal condition damage as Scourge.", "build_url": "https://snowcrows.com/builds/necromancer/scourge/condition-scourge" },
+      { "profession": "Necromancer", "elite_spec": "Scourge", "role": "Heal Alacrity", "role_type": "HealAlac", "description": "Heal and provide alacrity as Scourge.", "build_url": "https://snowcrows.com/builds/necromancer/scourge/heal-alacrity-scourge" },
+      { "profession": "Necromancer", "elite_spec": "Scourge", "role": "Condition Alacrity", "role_type": "Alacrity", "description": "Deal condition damage and provide alacrity as Scourge.", "build_url": "https://snowcrows.com/builds/necromancer/scourge/condition-alacrity-scourge" },
+
+      { "profession": "Necromancer", "elite_spec": "Harbinger", "role": "Condition DPS", "role_type": "DPS", "description": "Deal condition damage as Harbinger.", "build_url": "https://snowcrows.com/builds/necromancer/harbinger/condition-harbinger" },
+      { "profession": "Necromancer", "elite_spec": "Harbinger", "role": "Power DPS", "role_type": "DPS", "description": "Deal power damage as Harbinger.", "build_url": "https://snowcrows.com/builds/necromancer/harbinger/power-harbinger" },
+      { "profession": "Necromancer", "elite_spec": "Harbinger", "role": "Condition Quickness", "role_type": "Quickness", "description": "Deal condition damage and provide quickness as Harbinger.", "build_url": "https://snowcrows.com/builds/necromancer/harbinger/condition-quickness-harbinger" },
+      { "profession": "Necromancer", "elite_spec": "Harbinger", "role": "Power Quickness", "role_type": "Quickness", "description": "Deal power damage and provide quickness as Harbinger.", "build_url": "https://snowcrows.com/builds/necromancer/harbinger/power-quickness-harbinger" },
+
+      { "profession": "Revenant", "elite_spec": "Herald", "role": "Power DPS", "role_type": "DPS", "description": "Deal power damage as Herald.", "build_url": "https://snowcrows.com/builds/revenant/herald/power-herald" },
+      { "profession": "Revenant", "elite_spec": "Herald", "role": "Heal Quickness", "role_type": "HealQuick", "description": "Heal and provide quickness as Herald.", "build_url": "https://snowcrows.com/builds/revenant/herald/heal-quickness-herald" },
+      { "profession": "Revenant", "elite_spec": "Herald", "role": "Condition Quickness", "role_type": "Quickness", "description": "Deal condition damage and provide quickness as Herald.", "build_url": "https://snowcrows.com/builds/revenant/herald/condition-quickness-herald" },
+      { "profession": "Revenant", "elite_spec": "Herald", "role": "Power Quickness", "role_type": "Quickness", "description": "Deal power damage and provide quickness as Herald.", "build_url": "https://snowcrows.com/builds/revenant/herald/power-quickness-herald" },
+
+      { "profession": "Revenant", "elite_spec": "Renegade", "role": "Power Alacrity", "role_type": "Alacrity", "description": "Deal power damage and provide alacrity as Renegade.", "build_url": "https://snowcrows.com/builds/revenant/renegade/power-alacrity-renegade" },
+      { "profession": "Revenant", "elite_spec": "Renegade", "role": "Condition DPS", "role_type": "DPS", "description": "Deal condition damage as Renegade.", "build_url": "https://snowcrows.com/builds/revenant/renegade/condition-renegade" },
+      { "profession": "Revenant", "elite_spec": "Renegade", "role": "Heal Alacrity", "role_type": "HealAlac", "description": "Heal and provide alacrity as Renegade.", "build_url": "https://snowcrows.com/builds/revenant/renegade/heal-alacrity-renegade" },
+      { "profession": "Revenant", "elite_spec": "Renegade", "role": "Condition Alacrity", "role_type": "Alacrity", "description": "Deal condition damage and provide alacrity as Renegade.", "build_url": "https://snowcrows.com/builds/revenant/renegade/condition-alacrity-renegade" },
+
+      { "profession": "Revenant", "elite_spec": "Vindicator", "role": "Power DPS", "role_type": "DPS", "description": "Deal power damage as Vindicator.", "build_url": "https://snowcrows.com/builds/revenant/vindicator/power-vindicator" },
+      { "profession": "Revenant", "elite_spec": "Vindicator", "role": "Heal Alacrity", "role_type": "HealAlac", "description": "Heal and provide alacrity as Vindicator.", "build_url": "https://snowcrows.com/builds/revenant/vindicator/heal-alacrity-vindicator" }
+    ]
+  }
