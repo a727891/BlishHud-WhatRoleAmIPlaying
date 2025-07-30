@@ -145,7 +145,7 @@ namespace Soeed.WhatRoleAmIPlaying
             Point SettingPanelWindowSize = new(425, 425);
             _mainWindow = new StandardWindow(Background, SettingPanelRegion, SettingPanelContentRegion, SettingPanelWindowSize)
             {
-                Emblem = AsyncTexture2D.FromAssetId(155985),
+                //Emblem = AsyncTexture2D.FromAssetId(155985),
                 Title = "What Am I Playing?",
                 // Subtitle = "Get random role suggestions",
                 Parent = GameService.Graphics.SpriteScreen,
