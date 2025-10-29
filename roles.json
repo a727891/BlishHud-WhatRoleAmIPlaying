@@ -1,6 +1,6 @@
 {
-  "version": "0.1.0",
-  "last_updated": "2025-07-09T03:07:00.548Z",
+  "version": "0.2.0",
+  "last_updated": "2025-10-29T13:19:00.532Z",
   "professions": [
     {
       "name": "Guardian",
@@ -237,75 +237,72 @@
       "profession": "Revenant",
       "icon": "2491559",
       "background": "2491511"
+    },
+    {
+      "name": "Luminary",
+      "id": 1,
+      "profession": "Guardian",
+      "icon": "156633",
+      "background": ""
+    },
+    {
+      "name": "Paragon",
+      "id": 2,
+      "profession": "Warrior",
+      "icon": "156642",
+      "background": ""
+    },
+    {
+      "name": "Amalgam",
+      "id": 3,
+      "profession": "Engineer",
+      "icon": "156631",
+      "background": ""
+    },
+    {
+      "name": "Galeshot",
+      "id": 4,
+      "profession": "Ranger",
+      "icon": "156639",
+      "background": ""
+    },
+    {
+      "name": "Antiquary",
+      "id": 5,
+      "profession": "Thief",
+      "icon": "103581",
+      "background": ""
+    },
+    {
+      "name": "Evoker",
+      "id": 6,
+      "profession": "Elementalist",
+      "icon": "156629",
+      "background": ""
+    },
+    {
+      "name": "Troubadour",
+      "id": 7,
+      "profession": "Mesmer",
+      "icon": "156635",
+      "background": ""
+    },
+    {
+      "name": "Ritualist",
+      "id": 8,
+      "profession": "Necromancer",
+      "icon": "156637",
+      "background": ""
+    },
+    {
+      "name": "Conduit",
+      "id": 9,
+      "profession": "Revenant",
+      "icon": "965717",
+      "background": ""
     }
   ],
   "roles": [
-    {
-      "profession": "Elementalist",
-      "elite_spec": "Tempest",
-      "role": "Power",
-      "role_type": "DPS",
-      "provides_quickness": false,
-      "provides_alacrity": false,
-      "description": "Power Tempest (Scepter / Dagger)",
-      "weapons": "Scepter / Dagger",
-      "build_url": "https://snowcrows.com/builds/raids/elementalist/power-tempest"
-    },
-    {
-      "profession": "Elementalist",
-      "elite_spec": "Tempest",
-      "role": "Condition",
-      "role_type": "DPS",
-      "provides_quickness": false,
-      "provides_alacrity": false,
-      "description": "Condition Tempest (Pistol / Warhorn)",
-      "weapons": "Pistol / Warhorn",
-      "build_url": "https://snowcrows.com/builds/raids/elementalist/condition-tempest"
-    },
-    {
-      "profession": "Elementalist",
-      "elite_spec": "Tempest",
-      "role": "Healer",
-      "role_type": "Healer",
-      "provides_quickness": false,
-      "provides_alacrity": true,
-      "description": "Heal Alacrity Tempest (Dagger / Warhorn)",
-      "weapons": "Dagger / Warhorn",
-      "build_url": "https://snowcrows.com/builds/raids/elementalist/heal-alacrity-tempest"
-    },
-    {
-      "profession": "Elementalist",
-      "elite_spec": "Tempest",
-      "role": "Condition",
-      "role_type": "DPS",
-      "provides_quickness": false,
-      "provides_alacrity": true,
-      "description": "Condition Alacrity Tempest (Pistol / Warhorn)",
-      "weapons": "Pistol / Warhorn",
-      "build_url": "https://snowcrows.com/builds/raids/elementalist/condition-alacrity-tempest"
-    },
-    {
-      "profession": "Elementalist",
-      "elite_spec": "Tempest",
-      "role": "Power",
-      "role_type": "DPS",
-      "provides_quickness": false,
-      "provides_alacrity": true,
-      "description": "Power Alacrity Tempest (Sword / Dagger)",
-      "weapons": "Sword / Dagger",
-      "build_url": "https://snowcrows.com/builds/raids/elementalist/power-alacrity-tempest"
-    },
-    {
-      "profession": "Elementalist",
-      "elite_spec": "Tempest",
-      "role": "Healer",
-      "role_type": "Healer",
-      "provides_quickness": false,
-      "provides_alacrity": true,
-      "description": "Heal Alacrity Tempest (Staff)",
-      "weapons": "Staff",
-      "build_url": "https://snowcrows.com/builds/raids/elementalist/heal-alacrity-tempest-staff"
-    },
     {
       "profession": "Elementalist",
       "elite_spec": "Tempest",
@@ -323,10 +320,10 @@
       "role": "Condition",
       "role_type": "DPS",
       "provides_quickness": false,
-      "provides_alacrity": false,
-      "description": "Condition Tempest (Scepter / Warhorn)",
-      "weapons": "Scepter / Warhorn",
-      "build_url": "https://snowcrows.com/builds/raids/elementalist/condition-tempest-scepter"
+      "provides_alacrity": true,
+      "description": "Condition Alacrity Tempest (Pistol / Warhorn)",
+      "weapons": "Pistol / Warhorn",
+      "build_url": "https://snowcrows.com/builds/raids/elementalist/condition-alacrity-tempest"
     },
     {
       "profession": "Elementalist",
@@ -338,6 +335,94 @@
       "description": "Condition Alacrity Tempest (Scepter / Warhorn)",
       "weapons": "Scepter / Warhorn",
       "build_url": "https://snowcrows.com/builds/raids/elementalist/condition-alacrity-tempest-scepter"
+    },
+    {
+      "profession": "Elementalist",
+      "elite_spec": "Tempest",
+      "role": "Condition",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Condition Tempest (Pistol / Warhorn)",
+      "weapons": "Pistol / Warhorn",
+      "build_url": "https://snowcrows.com/builds/raids/elementalist/condition-tempest"
+    },
+    {
+      "profession": "Elementalist",
+      "elite_spec": "Tempest",
+      "role": "Condition",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Condition Tempest (Scepter / Warhorn)",
+      "weapons": "Scepter / Warhorn",
+      "build_url": "https://snowcrows.com/builds/raids/elementalist/condition-tempest-scepter"
+    },
+    {
+      "profession": "Elementalist",
+      "elite_spec": "Tempest",
+      "role": "Healer",
+      "role_type": "Healer",
+      "provides_quickness": false,
+      "provides_alacrity": true,
+      "description": "Heal Alacrity Tempest (Dagger / Warhorn)",
+      "weapons": "Dagger / Warhorn",
+      "build_url": "https://snowcrows.com/builds/raids/elementalist/heal-alacrity-tempest"
+    },
+    {
+      "profession": "Elementalist",
+      "elite_spec": "Tempest",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": true,
+      "description": "Power Alacrity Tempest (Hammer)",
+      "weapons": "Hammer",
+      "build_url": "https://snowcrows.com/builds/raids/elementalist/power-alacrity-tempest-hammer"
+    },
+    {
+      "profession": "Elementalist",
+      "elite_spec": "Tempest",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": true,
+      "description": "Power Alacrity Tempest (Sword / Dagger)",
+      "weapons": "Sword / Dagger",
+      "build_url": "https://snowcrows.com/builds/raids/elementalist/power-alacrity-tempest"
+    },
+    {
+      "profession": "Elementalist",
+      "elite_spec": "Tempest",
+      "role": "Hybrid",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": true,
+      "description": "Power Alacrity Tempest Inferno (Scepter / Focus)",
+      "weapons": "Scepter / Focus",
+      "build_url": "https://snowcrows.com/builds/raids/elementalist/power-alacrity-tempest-inferno-scepter-focus"
+    },
+    {
+      "profession": "Elementalist",
+      "elite_spec": "Tempest",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Power Tempest (Hammer)",
+      "weapons": "Hammer",
+      "build_url": "https://snowcrows.com/builds/raids/elementalist/power-tempest-hammer"
+    },
+    {
+      "profession": "Elementalist",
+      "elite_spec": "Tempest",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Power Tempest (Scepter / Dagger)",
+      "weapons": "Scepter / Dagger",
+      "build_url": "https://snowcrows.com/builds/raids/elementalist/power-tempest"
     },
     {
       "profession": "Elementalist",
@@ -357,42 +442,31 @@
       "role_type": "DPS",
       "provides_quickness": false,
       "provides_alacrity": false,
-      "description": "Power Tempest (Hammer)",
-      "weapons": "Hammer",
-      "build_url": "https://snowcrows.com/builds/raids/elementalist/power-tempest-hammer"
-    },
-    {
-      "profession": "Elementalist",
-      "elite_spec": "Tempest",
-      "role": "Power",
-      "role_type": "DPS",
-      "provides_quickness": false,
-      "provides_alacrity": true,
-      "description": "Power Alacrity Tempest (Hammer)",
-      "weapons": "Hammer",
-      "build_url": "https://snowcrows.com/builds/raids/elementalist/power-alacrity-tempest-hammer"
-    },
-    {
-      "profession": "Elementalist",
-      "elite_spec": "Tempest",
-      "role": "Power",
-      "role_type": "DPS",
-      "provides_quickness": false,
-      "provides_alacrity": false,
       "description": "Power Tempest Inferno (Scepter / Dagger)",
       "weapons": "Scepter / Dagger",
       "build_url": "https://snowcrows.com/builds/raids/elementalist/power-tempest-inferno-scepter-dagger"
     },
     {
       "profession": "Elementalist",
-      "elite_spec": "Tempest",
-      "role": "Hybrid",
+      "elite_spec": "Weaver",
+      "role": "Condition",
       "role_type": "DPS",
       "provides_quickness": false,
-      "provides_alacrity": true,
-      "description": "Power Alacrity Tempest Inferno (Scepter / Focus)",
-      "weapons": "Scepter / Focus",
-      "build_url": "https://snowcrows.com/builds/raids/elementalist/power-alacrity-tempest-inferno-scepter-focus"
+      "provides_alacrity": false,
+      "description": "Condition Weaver (Pistol / Warhorn)",
+      "weapons": "Pistol / Warhorn",
+      "build_url": "https://snowcrows.com/builds/raids/elementalist/condition-weaver-pistol"
+    },
+    {
+      "profession": "Elementalist",
+      "elite_spec": "Weaver",
+      "role": "Condition",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Condition Weaver (Scepter / Warhorn)",
+      "weapons": "Scepter / Warhorn",
+      "build_url": "https://snowcrows.com/builds/raids/elementalist/condition-weaver-scepter"
     },
     {
       "profession": "Elementalist",
@@ -407,25 +481,36 @@
     },
     {
       "profession": "Elementalist",
-      "elite_spec": "Weaver",
+      "elite_spec": "Catalyst",
       "role": "Condition",
       "role_type": "DPS",
       "provides_quickness": false,
       "provides_alacrity": false,
-      "description": "Condition Weaver",
-      "weapons": "",
-      "build_url": "https://snowcrows.com/builds/raids/elementalist/condition-weaver"
+      "description": "Condition Catalyst (Pistol / Dagger)",
+      "weapons": "Pistol / Dagger",
+      "build_url": "https://snowcrows.com/builds/raids/elementalist/condition-catalyst"
     },
     {
       "profession": "Elementalist",
       "elite_spec": "Catalyst",
-      "role": "Power",
+      "role": "Condition",
       "role_type": "DPS",
       "provides_quickness": true,
       "provides_alacrity": false,
-      "description": "Power Quickness Catalyst (Scepter / Dagger)",
-      "weapons": "Scepter / Dagger",
-      "build_url": "https://snowcrows.com/builds/raids/elementalist/power-quickness-catalyst"
+      "description": "Condition Quickness Catalyst (Pistol / Dagger)",
+      "weapons": "Pistol / Dagger",
+      "build_url": "https://snowcrows.com/builds/raids/elementalist/condition-quickness-catalyst"
+    },
+    {
+      "profession": "Elementalist",
+      "elite_spec": "Catalyst",
+      "role": "Condition",
+      "role_type": "DPS",
+      "provides_quickness": true,
+      "provides_alacrity": false,
+      "description": "Condition Quickness Catalyst (Pistol / Warhorn)",
+      "weapons": "Pistol / Warhorn",
+      "build_url": "https://snowcrows.com/builds/raids/elementalist/condition-quickness-catalyst-pistol-warhorn"
     },
     {
       "profession": "Elementalist",
@@ -443,44 +528,121 @@
       "elite_spec": "Catalyst",
       "role": "Power",
       "role_type": "DPS",
-      "provides_quickness": true,
-      "provides_alacrity": false,
-      "description": "Power Quickness Catalyst (Sword / Dagger)",
-      "weapons": "Sword / Dagger",
-      "build_url": "https://snowcrows.com/builds/raids/elementalist/power-quickness-catalyst-sword-dagger"
-    },
-    {
-      "profession": "Elementalist",
-      "elite_spec": "Catalyst",
-      "role": "Power",
-      "role_type": "DPS",
       "provides_quickness": false,
       "provides_alacrity": false,
-      "description": "Power Catalyst (Sword / Dagger)",
-      "weapons": "Sword / Dagger",
-      "build_url": "https://snowcrows.com/builds/raids/elementalist/power-catalyst"
-    },
-    {
-      "profession": "Elementalist",
-      "elite_spec": "Catalyst",
-      "role": "Power",
-      "role_type": "DPS",
-      "provides_quickness": false,
-      "provides_alacrity": false,
-      "description": "Power Catalyst (Scepter / Dagger)",
+      "description": "Power Catalyst Inferno (Scepter / Dagger)",
       "weapons": "Scepter / Dagger",
-      "build_url": "https://snowcrows.com/builds/raids/elementalist/power-catalyst-scepter-dagger"
+      "build_url": "https://snowcrows.com/builds/raids/elementalist/power-catalyst-scepter-dagger-inferno"
     },
     {
-      "profession": "Mesmer",
-      "elite_spec": "Chronomancer",
+      "profession": "Elementalist",
+      "elite_spec": "Catalyst",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Power Catalyst Persisting Flames (Scepter / Dagger)",
+      "weapons": "Scepter / Dagger",
+      "build_url": "https://snowcrows.com/builds/raids/elementalist/power-catalyst-scepter-dagger-pf"
+    },
+    {
+      "profession": "Elementalist",
+      "elite_spec": "Catalyst",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Power Catalyst Persisting Flames (Sword / Dagger)",
+      "weapons": "Sword / Dagger",
+      "build_url": "https://snowcrows.com/builds/raids/elementalist/power-catalyst-sword-dagger-pf"
+    },
+    {
+      "profession": "Elementalist",
+      "elite_spec": "Catalyst",
       "role": "Power",
       "role_type": "DPS",
       "provides_quickness": true,
+      "provides_alacrity": false,
+      "description": "Power Quickness Catalyst Inferno (Scepter / Dagger)",
+      "weapons": "Scepter / Dagger",
+      "build_url": "https://snowcrows.com/builds/raids/elementalist/power-quickness-catalyst-scepter-dagger-inferno"
+    },
+    {
+      "profession": "Elementalist",
+      "elite_spec": "Catalyst",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": true,
+      "provides_alacrity": false,
+      "description": "Power Quickness Catalyst Persisting Flames (Scepter / Dagger)",
+      "weapons": "Scepter / Dagger",
+      "build_url": "https://snowcrows.com/builds/raids/elementalist/power-quickness-catalyst-scepter-dagger-pf"
+    },
+    {
+      "profession": "Elementalist",
+      "elite_spec": "Catalyst",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": true,
+      "provides_alacrity": false,
+      "description": "Power Quickness Catalyst Persisting Flames (Sword / Dagger)",
+      "weapons": "Sword / Dagger",
+      "build_url": "https://snowcrows.com/builds/raids/elementalist/power-quickness-catalyst-sword-dagger-pf"
+    },
+    {
+      "profession": "Elementalist",
+      "elite_spec": "Evoker",
+      "role": "Condition",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Condition Evoker",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/elementalist/condition-evoker"
+    },
+    {
+      "profession": "Elementalist",
+      "elite_spec": "Evoker",
+      "role": "Condition",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Condition Evoker Specialized Elements",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/elementalist/condition-evoker-specialized-elements"
+    },
+    {
+      "profession": "Elementalist",
+      "elite_spec": "Evoker",
+      "role": "Healer",
+      "role_type": "Healer",
+      "provides_quickness": false,
       "provides_alacrity": true,
-      "description": "Power Boon Chronomancer (Spear & Dagger / Sword)",
-      "weapons": "Spear & Dagger / Sword",
-      "build_url": "https://snowcrows.com/builds/raids/mesmer/power-boon-chronomancer"
+      "description": "Heal Alacrity Evoker (Otter)",
+      "weapons": "Otter",
+      "build_url": "https://snowcrows.com/builds/raids/elementalist/heal-alacrity-evoker-otter"
+    },
+    {
+      "profession": "Elementalist",
+      "elite_spec": "Evoker",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Power Evoker Persisting Flames (Scepter / Dagger)",
+      "weapons": "Scepter / Dagger",
+      "build_url": "https://snowcrows.com/builds/raids/elementalist/power-evoker-scepter-dagger-pf"
+    },
+    {
+      "profession": "Elementalist",
+      "elite_spec": "Evoker",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": true,
+      "provides_alacrity": false,
+      "description": "Power Quickness Evoker (Scepter / Dagger)",
+      "weapons": "Scepter / Dagger",
+      "build_url": "https://snowcrows.com/builds/raids/elementalist/power-quickness-evoker-hare"
     },
     {
       "profession": "Mesmer",
@@ -492,17 +654,6 @@
       "description": "Condition Boon Chronomancer",
       "weapons": "",
       "build_url": "https://snowcrows.com/builds/raids/mesmer/condition-boon-chronomancer"
-    },
-    {
-      "profession": "Mesmer",
-      "elite_spec": "Chronomancer",
-      "role": "Power",
-      "role_type": "DPS",
-      "provides_quickness": false,
-      "provides_alacrity": false,
-      "description": "Power Chronomancer",
-      "weapons": "",
-      "build_url": "https://snowcrows.com/builds/raids/mesmer/power-chronomancer"
     },
     {
       "profession": "Mesmer",
@@ -533,6 +684,17 @@
       "role_type": "DPS",
       "provides_quickness": true,
       "provides_alacrity": true,
+      "description": "Power Boon Chronomancer (Greatsword & Dagger / Sword)",
+      "weapons": "Greatsword & Dagger / Sword",
+      "build_url": "https://snowcrows.com/builds/raids/mesmer/power-boon-chronomancer-greatsword"
+    },
+    {
+      "profession": "Mesmer",
+      "elite_spec": "Chronomancer",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": true,
+      "provides_alacrity": true,
       "description": "Power Boon Chronomancer (Spear & Dagger / Focus)",
       "weapons": "Spear & Dagger / Focus",
       "build_url": "https://snowcrows.com/builds/raids/mesmer/power-boon-chronomancer-focus"
@@ -544,9 +706,20 @@
       "role_type": "DPS",
       "provides_quickness": true,
       "provides_alacrity": true,
-      "description": "Power Boon Chronomancer (Greatsword & Dagger / Sword)",
-      "weapons": "Greatsword & Dagger / Sword",
-      "build_url": "https://snowcrows.com/builds/raids/mesmer/power-boon-chronomancer-greatsword"
+      "description": "Power Boon Chronomancer (Spear & Dagger / Sword)",
+      "weapons": "Spear & Dagger / Sword",
+      "build_url": "https://snowcrows.com/builds/raids/mesmer/power-boon-chronomancer"
+    },
+    {
+      "profession": "Mesmer",
+      "elite_spec": "Chronomancer",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Power Chronomancer",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/mesmer/power-chronomancer"
     },
     {
       "profession": "Mesmer",
@@ -555,20 +728,20 @@
       "role_type": "DPS",
       "provides_quickness": false,
       "provides_alacrity": true,
-      "description": "Condition Alacrity Mirage",
-      "weapons": "",
-      "build_url": "https://snowcrows.com/builds/raids/mesmer/condition-alacrity-mirage"
+      "description": "Condition Alacrity Mirage (Axe / Torch & Staff)",
+      "weapons": "Axe / Torch & Staff",
+      "build_url": "https://snowcrows.com/builds/raids/mesmer/condition-alacrity-mirage-axe-torch-staff"
     },
     {
       "profession": "Mesmer",
       "elite_spec": "Mirage",
-      "role": "Healer",
-      "role_type": "Healer",
+      "role": "Condition",
+      "role_type": "DPS",
       "provides_quickness": false,
       "provides_alacrity": true,
-      "description": "Heal Alacrity Mirage",
-      "weapons": "",
-      "build_url": "https://snowcrows.com/builds/raids/mesmer/heal-alacrity-mirage"
+      "description": "Condition Alacrity Mirage (Staff Only)",
+      "weapons": "Staff Only",
+      "build_url": "https://snowcrows.com/builds/raids/mesmer/condition-alacrity-mirage-staff"
     },
     {
       "profession": "Mesmer",
@@ -577,8 +750,19 @@
       "role_type": "DPS",
       "provides_quickness": false,
       "provides_alacrity": false,
-      "description": "Condition Mirage (Dune Cloak with Staff & Axe / Torch)",
-      "weapons": "Dune Cloak with Staff & Axe / Torch",
+      "description": "Condition Mirage (Dagger with Infinite Horizon)",
+      "weapons": "Dagger with Infinite Horizon",
+      "build_url": "https://snowcrows.com/builds/raids/mesmer/condition-mirage-dagger"
+    },
+    {
+      "profession": "Mesmer",
+      "elite_spec": "Mirage",
+      "role": "Condition",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Condition Mirage (Dune Cloak)",
+      "weapons": "Dune Cloak",
       "build_url": "https://snowcrows.com/builds/raids/mesmer/condition-mirage-dune-cloak"
     },
     {
@@ -587,21 +771,21 @@
       "role": "Condition",
       "role_type": "DPS",
       "provides_quickness": false,
-      "provides_alacrity": true,
-      "description": "Condition Alacrity Mirage (Dune Cloak with Staff & Axe / Torch)",
-      "weapons": "Dune Cloak with Staff & Axe / Torch",
-      "build_url": "https://snowcrows.com/builds/raids/mesmer/condition-alacrity-mirage-dune-cloak"
+      "provides_alacrity": false,
+      "description": "Condition Mirage (Infinite Horizon with Ether)",
+      "weapons": "Infinite Horizon with Ether",
+      "build_url": "https://snowcrows.com/builds/raids/mesmer/condition-mirage-ih-ether"
     },
     {
       "profession": "Mesmer",
-      "elite_spec": "Virtuoso",
-      "role": "Power",
+      "elite_spec": "Mirage",
+      "role": "Condition",
       "role_type": "DPS",
       "provides_quickness": false,
       "provides_alacrity": false,
-      "description": "Power Virtuoso (Dagger / Sword & Spear)",
-      "weapons": "Dagger / Sword & Spear",
-      "build_url": "https://snowcrows.com/builds/raids/mesmer/power-virtuoso"
+      "description": "Condition Mirage (Infinite Horizon with Oasis)",
+      "weapons": "Infinite Horizon with Oasis",
+      "build_url": "https://snowcrows.com/builds/raids/mesmer/condition-mirage-ih-oasis"
     },
     {
       "profession": "Mesmer",
@@ -621,20 +805,64 @@
       "role_type": "DPS",
       "provides_quickness": false,
       "provides_alacrity": false,
+      "description": "Power Virtuoso (Dagger / Sword & Greatsword)",
+      "weapons": "Dagger / Sword & Greatsword",
+      "build_url": "https://snowcrows.com/builds/raids/mesmer/power-virtuoso-dagger-sword-greatsword"
+    },
+    {
+      "profession": "Mesmer",
+      "elite_spec": "Virtuoso",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Power Virtuoso (Dagger / Sword & Spear)",
+      "weapons": "Dagger / Sword & Spear",
+      "build_url": "https://snowcrows.com/builds/raids/mesmer/power-virtuoso"
+    },
+    {
+      "profession": "Mesmer",
+      "elite_spec": "Virtuoso",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
       "description": "Power Virtuoso (Spear & Greatsword)",
       "weapons": "Spear & Greatsword",
       "build_url": "https://snowcrows.com/builds/raids/mesmer/power-virtuoso-spear-greatsword"
     },
     {
-      "profession": "Necromancer",
-      "elite_spec": "Reaper",
+      "profession": "Mesmer",
+      "elite_spec": "Troubadour",
+      "role": "Healer",
+      "role_type": "Healer",
+      "provides_quickness": true,
+      "provides_alacrity": false,
+      "description": "Heal Quickness Troubadour",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/mesmer/heal-quickness-troubadour"
+    },
+    {
+      "profession": "Mesmer",
+      "elite_spec": "Troubadour",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": true,
+      "description": "Power Alacrity Troubadour",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/mesmer/power-alacrity-troubadour"
+    },
+    {
+      "profession": "Mesmer",
+      "elite_spec": "Troubadour",
       "role": "Power",
       "role_type": "DPS",
       "provides_quickness": false,
       "provides_alacrity": false,
-      "description": "Power Reaper (Greatsword & Dagger / Sword)",
-      "weapons": "Greatsword & Dagger / Sword",
-      "build_url": "https://snowcrows.com/builds/raids/necromancer/power-reaper"
+      "description": "Power Troubadour",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/mesmer/power-troubadour"
     },
     {
       "profession": "Necromancer",
@@ -654,9 +882,53 @@
       "role_type": "DPS",
       "provides_quickness": false,
       "provides_alacrity": false,
+      "description": "Power Reaper (Greatsword & Dagger / Sword)",
+      "weapons": "Greatsword & Dagger / Sword",
+      "build_url": "https://snowcrows.com/builds/raids/necromancer/power-reaper"
+    },
+    {
+      "profession": "Necromancer",
+      "elite_spec": "Reaper",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Power Reaper (Greatsword & Sword / Sword)",
+      "weapons": "Greatsword & Sword / Sword",
+      "build_url": "https://snowcrows.com/builds/raids/necromancer/power-reaper-greatsword-sword-sword"
+    },
+    {
+      "profession": "Necromancer",
+      "elite_spec": "Reaper",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
       "description": "Power Reaper (Spear & Greatsword)",
       "weapons": "Spear & Greatsword",
       "build_url": "https://snowcrows.com/builds/raids/necromancer/power-reaper-spear"
+    },
+    {
+      "profession": "Necromancer",
+      "elite_spec": "Scourge",
+      "role": "Healer",
+      "role_type": "Healer",
+      "provides_quickness": false,
+      "provides_alacrity": true,
+      "description": "Celestial Alacrity Scourge",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/necromancer/celestial-alacrity-scourge"
+    },
+    {
+      "profession": "Necromancer",
+      "elite_spec": "Scourge",
+      "role": "Condition",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": true,
+      "description": "Condition Alacrity Scourge",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/necromancer/condition-alacrity-scourge"
     },
     {
       "profession": "Necromancer",
@@ -676,20 +948,9 @@
       "role_type": "Healer",
       "provides_quickness": false,
       "provides_alacrity": true,
-      "description": "Heal Alacrity Scourge (Dagger / Torch & Warhorn)",
-      "weapons": "Dagger / Torch & Warhorn",
-      "build_url": "https://snowcrows.com/builds/raids/necromancer/heal-alacrity-scourge"
-    },
-    {
-      "profession": "Necromancer",
-      "elite_spec": "Scourge",
-      "role": "Condition",
-      "role_type": "DPS",
-      "provides_quickness": false,
-      "provides_alacrity": true,
-      "description": "Condition Alacrity Scourge",
-      "weapons": "",
-      "build_url": "https://snowcrows.com/builds/raids/necromancer/condition-alacrity-scourge"
+      "description": "Heal Alacrity Scourge (Torch & Staff)",
+      "weapons": "Torch & Staff",
+      "build_url": "https://snowcrows.com/builds/raids/necromancer/heal-alacrity-scourge-staff"
     },
     {
       "profession": "Necromancer",
@@ -698,9 +959,20 @@
       "role_type": "Healer",
       "provides_quickness": false,
       "provides_alacrity": true,
-      "description": "Celestial Alacrity Scourge",
-      "weapons": "",
-      "build_url": "https://snowcrows.com/builds/raids/necromancer/celestial-alacrity-scourge"
+      "description": "Heal Alacrity Scourge (Torch & Warhorn)",
+      "weapons": "Torch & Warhorn",
+      "build_url": "https://snowcrows.com/builds/raids/necromancer/heal-alacrity-scourge"
+    },
+    {
+      "profession": "Necromancer",
+      "elite_spec": "Scourge",
+      "role": "Healer",
+      "role_type": "Healer",
+      "provides_quickness": false,
+      "provides_alacrity": true,
+      "description": "Heal Alacrity Scourge (Warhorn & Staff)",
+      "weapons": "Warhorn & Staff",
+      "build_url": "https://snowcrows.com/builds/raids/necromancer/heal-alacrity-scourge-warhorn-staff"
     },
     {
       "profession": "Necromancer",
@@ -712,17 +984,6 @@
       "description": "Kite Scourge (Qadim the Peerless)",
       "weapons": "Qadim the Peerless",
       "build_url": "https://snowcrows.com/builds/raids/necromancer/kite-scourge-qadim-the-peerless"
-    },
-    {
-      "profession": "Necromancer",
-      "elite_spec": "Scourge",
-      "role": "Healer",
-      "role_type": "Healer",
-      "provides_quickness": false,
-      "provides_alacrity": true,
-      "description": "Heal Alacrity Scourge (Staff & Dagger / Torch)",
-      "weapons": "Staff & Dagger / Torch",
-      "build_url": "https://snowcrows.com/builds/raids/necromancer/heal-alacrity-scourge-staff"
     },
     {
       "profession": "Necromancer",
@@ -762,6 +1023,28 @@
       "elite_spec": "Harbinger",
       "role": "Power",
       "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Power Harbinger (Greatsword & Dagger / Sword)",
+      "weapons": "Greatsword & Dagger / Sword",
+      "build_url": "https://snowcrows.com/builds/raids/necromancer/power-harbinger-greatsword-dagger-sword"
+    },
+    {
+      "profession": "Necromancer",
+      "elite_spec": "Harbinger",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Power Harbinger (Greatsword & Sword / Sword)",
+      "weapons": "Greatsword & Sword / Sword",
+      "build_url": "https://snowcrows.com/builds/raids/necromancer/power-harbinger-greatsword-sword-sword"
+    },
+    {
+      "profession": "Necromancer",
+      "elite_spec": "Harbinger",
+      "role": "Power",
+      "role_type": "DPS",
       "provides_quickness": true,
       "provides_alacrity": false,
       "description": "Power Quickness Harbinger",
@@ -769,37 +1052,48 @@
       "build_url": "https://snowcrows.com/builds/raids/necromancer/power-quickness-harbinger"
     },
     {
-      "profession": "Engineer",
-      "elite_spec": "",
-      "role": "Power",
-      "role_type": "DPS",
-      "provides_quickness": false,
+      "profession": "Necromancer",
+      "elite_spec": "Ritualist",
+      "role": "Healer",
+      "role_type": "Healer",
+      "provides_quickness": true,
       "provides_alacrity": false,
-      "description": "Power Engineer",
+      "description": "Heal Quickness Ritualist",
       "weapons": "",
-      "build_url": "https://snowcrows.com/builds/raids/engineer/power-engineer"
+      "build_url": "https://snowcrows.com/builds/raids/necromancer/heal-quickness-ritualist"
     },
     {
-      "profession": "Engineer",
-      "elite_spec": "Scrapper",
-      "role": "Power",
-      "role_type": "DPS",
-      "provides_quickness": false,
-      "provides_alacrity": false,
-      "description": "Power Scrapper",
-      "weapons": "",
-      "build_url": "https://snowcrows.com/builds/raids/engineer/power-scrapper"
-    },
-    {
-      "profession": "Engineer",
-      "elite_spec": "Scrapper",
+      "profession": "Necromancer",
+      "elite_spec": "Ritualist",
       "role": "Power",
       "role_type": "DPS",
       "provides_quickness": true,
       "provides_alacrity": false,
-      "description": "Power Quickness Scrapper",
+      "description": "Power Quickness Ritualist",
       "weapons": "",
-      "build_url": "https://snowcrows.com/builds/raids/engineer/power-quickness-scrapper"
+      "build_url": "https://snowcrows.com/builds/raids/necromancer/power-quickness-ritualist"
+    },
+    {
+      "profession": "Necromancer",
+      "elite_spec": "Ritualist",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Power Ritualist",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/necromancer/power-ritualist"
+    },
+    {
+      "profession": "Engineer",
+      "elite_spec": "Scrapper",
+      "role": "Condition",
+      "role_type": "DPS",
+      "provides_quickness": true,
+      "provides_alacrity": false,
+      "description": "Condition Quickness Scrapper",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/engineer/condition-quickness-scrapper"
     },
     {
       "profession": "Engineer",
@@ -825,14 +1119,25 @@
     },
     {
       "profession": "Engineer",
-      "elite_spec": "Holosmith",
+      "elite_spec": "Scrapper",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": true,
+      "provides_alacrity": false,
+      "description": "Power Quickness Scrapper",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/engineer/power-quickness-scrapper"
+    },
+    {
+      "profession": "Engineer",
+      "elite_spec": "Scrapper",
       "role": "Power",
       "role_type": "DPS",
       "provides_quickness": false,
       "provides_alacrity": false,
-      "description": "Power Holosmith",
+      "description": "Power Scrapper",
       "weapons": "",
-      "build_url": "https://snowcrows.com/builds/raids/engineer/power-holosmith"
+      "build_url": "https://snowcrows.com/builds/raids/engineer/power-scrapper"
     },
     {
       "profession": "Engineer",
@@ -847,14 +1152,14 @@
     },
     {
       "profession": "Engineer",
-      "elite_spec": "Mechanist",
-      "role": "Healer",
-      "role_type": "Healer",
+      "elite_spec": "Holosmith",
+      "role": "Power",
+      "role_type": "DPS",
       "provides_quickness": false,
-      "provides_alacrity": true,
-      "description": "Hand Kite Alacrity Mechanist",
+      "provides_alacrity": false,
+      "description": "Power Holosmith",
       "weapons": "",
-      "build_url": "https://snowcrows.com/builds/raids/engineer/hand-kite-mechanist"
+      "build_url": "https://snowcrows.com/builds/raids/engineer/power-holosmith"
     },
     {
       "profession": "Engineer",
@@ -862,10 +1167,10 @@
       "role": "Condition",
       "role_type": "DPS",
       "provides_quickness": false,
-      "provides_alacrity": false,
-      "description": "Condition Mechanist (One Kit)",
+      "provides_alacrity": true,
+      "description": "Condition Alacrity Mechanist (One Kit)",
       "weapons": "One Kit",
-      "build_url": "https://snowcrows.com/builds/raids/engineer/condition-mechanist"
+      "build_url": "https://snowcrows.com/builds/raids/engineer/condition-alacrity-mechanist-1-kit"
     },
     {
       "profession": "Engineer",
@@ -877,50 +1182,6 @@
       "description": "Condition Alacrity Mechanist (Two Kits)",
       "weapons": "Two Kits",
       "build_url": "https://snowcrows.com/builds/raids/engineer/condition-alacrity-mechanist"
-    },
-    {
-      "profession": "Engineer",
-      "elite_spec": "Mechanist",
-      "role": "Power",
-      "role_type": "DPS",
-      "provides_quickness": false,
-      "provides_alacrity": true,
-      "description": "Power Alacrity Mechanist (Rifle)",
-      "weapons": "Rifle",
-      "build_url": "https://snowcrows.com/builds/raids/engineer/power-alacrity-mechanist"
-    },
-    {
-      "profession": "Engineer",
-      "elite_spec": "Mechanist",
-      "role": "Healer",
-      "role_type": "Healer",
-      "provides_quickness": false,
-      "provides_alacrity": true,
-      "description": "Heal Alacrity Mechanist (Shortbow)",
-      "weapons": "Shortbow",
-      "build_url": "https://snowcrows.com/builds/raids/engineer/heal-alacrity-mechanist"
-    },
-    {
-      "profession": "Engineer",
-      "elite_spec": "Mechanist",
-      "role": "Power",
-      "role_type": "DPS",
-      "provides_quickness": false,
-      "provides_alacrity": false,
-      "description": "Power Mechanist (Rifle)",
-      "weapons": "Rifle",
-      "build_url": "https://snowcrows.com/builds/raids/engineer/power-mechanist"
-    },
-    {
-      "profession": "Engineer",
-      "elite_spec": "Mechanist",
-      "role": "Healer",
-      "role_type": "Healer",
-      "provides_quickness": false,
-      "provides_alacrity": true,
-      "description": "Heal Alacrity Mechanist (Mace / Shield)",
-      "weapons": "Mace / Shield",
-      "build_url": "https://snowcrows.com/builds/raids/engineer/heal-alacrity-mechanist-mace-shield"
     },
     {
       "profession": "Engineer",
@@ -939,10 +1200,54 @@
       "role": "Condition",
       "role_type": "DPS",
       "provides_quickness": false,
-      "provides_alacrity": true,
-      "description": "Condition Alacrity Mechanist (One Kit)",
+      "provides_alacrity": false,
+      "description": "Condition Mechanist (One Kit)",
       "weapons": "One Kit",
-      "build_url": "https://snowcrows.com/builds/raids/engineer/condition-alacrity-mechanist-1-kit"
+      "build_url": "https://snowcrows.com/builds/raids/engineer/condition-mechanist"
+    },
+    {
+      "profession": "Engineer",
+      "elite_spec": "Mechanist",
+      "role": "Condition",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Condition Mechanist (Two Kits)",
+      "weapons": "Two Kits",
+      "build_url": "https://snowcrows.com/builds/raids/engineer/condition-mechanist-two-kits"
+    },
+    {
+      "profession": "Engineer",
+      "elite_spec": "Mechanist",
+      "role": "Healer",
+      "role_type": "Healer",
+      "provides_quickness": false,
+      "provides_alacrity": true,
+      "description": "Hand Kite Alacrity Mechanist",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/engineer/hand-kite-mechanist"
+    },
+    {
+      "profession": "Engineer",
+      "elite_spec": "Mechanist",
+      "role": "Healer",
+      "role_type": "Healer",
+      "provides_quickness": false,
+      "provides_alacrity": true,
+      "description": "Heal Alacrity Mechanist (Mace / Shield)",
+      "weapons": "Mace / Shield",
+      "build_url": "https://snowcrows.com/builds/raids/engineer/heal-alacrity-mechanist-mace-shield"
+    },
+    {
+      "profession": "Engineer",
+      "elite_spec": "Mechanist",
+      "role": "Healer",
+      "role_type": "Healer",
+      "provides_quickness": false,
+      "provides_alacrity": true,
+      "description": "Heal Alacrity Mechanist (Shortbow)",
+      "weapons": "Shortbow",
+      "build_url": "https://snowcrows.com/builds/raids/engineer/heal-alacrity-mechanist"
     },
     {
       "profession": "Engineer",
@@ -950,10 +1255,10 @@
       "role": "Power",
       "role_type": "DPS",
       "provides_quickness": false,
-      "provides_alacrity": false,
-      "description": "Power Mechanist (Sword / Pistol)",
-      "weapons": "Sword / Pistol",
-      "build_url": "https://snowcrows.com/builds/raids/engineer/power-mechanist-sword"
+      "provides_alacrity": true,
+      "description": "Power Alacrity Mechanist (Rifle)",
+      "weapons": "Rifle",
+      "build_url": "https://snowcrows.com/builds/raids/engineer/power-alacrity-mechanist"
     },
     {
       "profession": "Engineer",
@@ -969,24 +1274,57 @@
     {
       "profession": "Engineer",
       "elite_spec": "Mechanist",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Power Mechanist (Rifle)",
+      "weapons": "Rifle",
+      "build_url": "https://snowcrows.com/builds/raids/engineer/power-mechanist"
+    },
+    {
+      "profession": "Engineer",
+      "elite_spec": "Mechanist",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Power Mechanist (Sword / Pistol)",
+      "weapons": "Sword / Pistol",
+      "build_url": "https://snowcrows.com/builds/raids/engineer/power-mechanist-sword"
+    },
+    {
+      "profession": "Engineer",
+      "elite_spec": "Amalgam",
       "role": "Condition",
       "role_type": "DPS",
       "provides_quickness": false,
       "provides_alacrity": false,
-      "description": "Condition Mechanist (Two Kits)",
-      "weapons": "Two Kits",
-      "build_url": "https://snowcrows.com/builds/raids/engineer/condition-mechanist-two-kits"
+      "description": "Condition Amalgam",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/engineer/condition-amalgam"
     },
     {
-      "profession": "Ranger",
-      "elite_spec": "Druid",
+      "profession": "Engineer",
+      "elite_spec": "Amalgam",
       "role": "Healer",
       "role_type": "Healer",
       "provides_quickness": false,
       "provides_alacrity": true,
-      "description": "Heal Alacrity Druid",
+      "description": "Heal Alacrity Amalgam",
       "weapons": "",
-      "build_url": "https://snowcrows.com/builds/raids/ranger/heal-druid"
+      "build_url": "https://snowcrows.com/builds/raids/engineer/heal-alacrity-amalgam"
+    },
+    {
+      "profession": "Engineer",
+      "elite_spec": "Amalgam",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Power Amalgam",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/engineer/power-amalgam"
     },
     {
       "profession": "Ranger",
@@ -1001,14 +1339,25 @@
     },
     {
       "profession": "Ranger",
+      "elite_spec": "Druid",
+      "role": "Healer",
+      "role_type": "Healer",
+      "provides_quickness": false,
+      "provides_alacrity": true,
+      "description": "Heal Alacrity Druid",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/ranger/heal-druid"
+    },
+    {
+      "profession": "Ranger",
       "elite_spec": "Soulbeast",
-      "role": "Power",
+      "role": "Condition",
       "role_type": "DPS",
       "provides_quickness": false,
       "provides_alacrity": false,
-      "description": "Power Soulbeast (Hammer & Axe / Axe)",
-      "weapons": "Hammer & Axe / Axe",
-      "build_url": "https://snowcrows.com/builds/raids/ranger/power-soulbeast-hammer"
+      "description": "Condition Soulbeast (Axe / Dagger & Dagger / Torch)",
+      "weapons": "Axe / Dagger & Dagger / Torch",
+      "build_url": "https://snowcrows.com/builds/raids/ranger/condition-soulbeast-quickdraw"
     },
     {
       "profession": "Ranger",
@@ -1039,20 +1388,9 @@
       "role_type": "DPS",
       "provides_quickness": false,
       "provides_alacrity": false,
-      "description": "Power Soulbeast (Spear & Axe / Axe)",
-      "weapons": "Spear & Axe / Axe",
-      "build_url": "https://snowcrows.com/builds/raids/ranger/power-soulbeast"
-    },
-    {
-      "profession": "Ranger",
-      "elite_spec": "Soulbeast",
-      "role": "Condition",
-      "role_type": "DPS",
-      "provides_quickness": false,
-      "provides_alacrity": false,
-      "description": "Condition Soulbeast (Axe / Dagger & Dagger / Torch)",
-      "weapons": "Axe / Dagger & Dagger / Torch",
-      "build_url": "https://snowcrows.com/builds/raids/ranger/condition-soulbeast-quickdraw"
+      "description": "Power Soulbeast (Hammer & Axe / Axe)",
+      "weapons": "Hammer & Axe / Axe",
+      "build_url": "https://snowcrows.com/builds/raids/ranger/power-soulbeast-hammer"
     },
     {
       "profession": "Ranger",
@@ -1064,17 +1402,6 @@
       "description": "Condition Quickness Untamed",
       "weapons": "",
       "build_url": "https://snowcrows.com/builds/raids/ranger/condition-quickness-untamed"
-    },
-    {
-      "profession": "Ranger",
-      "elite_spec": "Untamed",
-      "role": "Power",
-      "role_type": "DPS",
-      "provides_quickness": false,
-      "provides_alacrity": false,
-      "description": "Power Untamed (Hammer & Sword / Axe)",
-      "weapons": "Hammer & Sword / Axe",
-      "build_url": "https://snowcrows.com/builds/raids/ranger/power-untamed-sword-axe"
     },
     {
       "profession": "Ranger",
@@ -1092,11 +1419,11 @@
       "elite_spec": "Untamed",
       "role": "Power",
       "role_type": "DPS",
-      "provides_quickness": false,
+      "provides_quickness": true,
       "provides_alacrity": false,
-      "description": "Power Untamed (Hammer & Spear)",
-      "weapons": "Hammer & Spear",
-      "build_url": "https://snowcrows.com/builds/raids/ranger/power-untamed"
+      "description": "Power Quickness Untamed (Hammer & Mace / Mace)",
+      "weapons": "Hammer & Mace / Mace",
+      "build_url": "https://snowcrows.com/builds/raids/ranger/power-quickness-untamed-maces"
     },
     {
       "profession": "Ranger",
@@ -1125,11 +1452,44 @@
       "elite_spec": "Untamed",
       "role": "Power",
       "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Power Untamed (Hammer & Spear)",
+      "weapons": "Hammer & Spear",
+      "build_url": "https://snowcrows.com/builds/raids/ranger/power-untamed"
+    },
+    {
+      "profession": "Ranger",
+      "elite_spec": "Untamed",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Power Untamed (Hammer & Sword / Axe)",
+      "weapons": "Hammer & Sword / Axe",
+      "build_url": "https://snowcrows.com/builds/raids/ranger/power-untamed-sword-axe"
+    },
+    {
+      "profession": "Ranger",
+      "elite_spec": "Galeshot",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Power Galeshot",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/ranger/power-galeshot"
+    },
+    {
+      "profession": "Ranger",
+      "elite_spec": "Galeshot",
+      "role": "Power",
+      "role_type": "DPS",
       "provides_quickness": true,
       "provides_alacrity": false,
-      "description": "Power Quickness Untamed (Hammer & Mace / Mace)",
-      "weapons": "Hammer & Mace / Mace",
-      "build_url": "https://snowcrows.com/builds/raids/ranger/power-quickness-untamed-maces"
+      "description": "Power Quickness Galeshot",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/ranger/power-quickness-galeshot"
     },
     {
       "profession": "Thief",
@@ -1156,13 +1516,13 @@
     {
       "profession": "Thief",
       "elite_spec": "Daredevil",
-      "role": "Power",
+      "role": "Condition",
       "role_type": "DPS",
       "provides_quickness": false,
       "provides_alacrity": false,
-      "description": "Power Daredevil (Staff)",
-      "weapons": "Staff",
-      "build_url": "https://snowcrows.com/builds/raids/thief/power-daredevil"
+      "description": "Condition Daredevil (Dagger / Dagger)",
+      "weapons": "Dagger / Dagger",
+      "build_url": "https://snowcrows.com/builds/raids/thief/condition-daredevil"
     },
     {
       "profession": "Thief",
@@ -1171,9 +1531,9 @@
       "role_type": "DPS",
       "provides_quickness": false,
       "provides_alacrity": false,
-      "description": "Condition Daredevil (Dagger / Dagger)",
-      "weapons": "Dagger / Dagger",
-      "build_url": "https://snowcrows.com/builds/raids/thief/condition-daredevil"
+      "description": "Condition Daredevil (Spear)",
+      "weapons": "Spear",
+      "build_url": "https://snowcrows.com/builds/raids/thief/condition-daredevil-spear"
     },
     {
       "profession": "Thief",
@@ -1189,24 +1549,13 @@
     {
       "profession": "Thief",
       "elite_spec": "Daredevil",
-      "role": "Condition",
-      "role_type": "DPS",
-      "provides_quickness": false,
-      "provides_alacrity": false,
-      "description": "Condition Daredevil (Spear)",
-      "weapons": "Spear",
-      "build_url": "https://snowcrows.com/builds/raids/thief/condition-daredevil-spear"
-    },
-    {
-      "profession": "Thief",
-      "elite_spec": "Deadeye",
       "role": "Power",
       "role_type": "DPS",
       "provides_quickness": false,
       "provides_alacrity": false,
-      "description": "Kite Deadeye (Qadim)",
-      "weapons": "Qadim",
-      "build_url": "https://snowcrows.com/builds/raids/thief/kite-deadeye"
+      "description": "Power Daredevil (Staff)",
+      "weapons": "Staff",
+      "build_url": "https://snowcrows.com/builds/raids/thief/power-daredevil"
     },
     {
       "profession": "Thief",
@@ -1222,24 +1571,13 @@
     {
       "profession": "Thief",
       "elite_spec": "Deadeye",
-      "role": "Power",
-      "role_type": "DPS",
-      "provides_quickness": false,
-      "provides_alacrity": false,
-      "description": "Power Deadeye (Rifle & Dagger / Dagger)",
-      "weapons": "Rifle & Dagger / Dagger",
-      "build_url": "https://snowcrows.com/builds/raids/thief/power-deadeye"
-    },
-    {
-      "profession": "Thief",
-      "elite_spec": "Deadeye",
-      "role": "Power",
+      "role": "Condition",
       "role_type": "DPS",
       "provides_quickness": true,
       "provides_alacrity": false,
-      "description": "Power Quickness Deadeye",
-      "weapons": "",
-      "build_url": "https://snowcrows.com/builds/raids/thief/power-quickness-deadeye"
+      "description": "Condition Quickness Deadeye (Scepter / Dagger)",
+      "weapons": "Scepter / Dagger",
+      "build_url": "https://snowcrows.com/builds/raids/thief/condition-quickness-deadeye-scepter"
     },
     {
       "profession": "Thief",
@@ -1270,6 +1608,28 @@
       "role_type": "DPS",
       "provides_quickness": false,
       "provides_alacrity": false,
+      "description": "Kite Deadeye (Qadim)",
+      "weapons": "Qadim",
+      "build_url": "https://snowcrows.com/builds/raids/thief/kite-deadeye"
+    },
+    {
+      "profession": "Thief",
+      "elite_spec": "Deadeye",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Power Deadeye (Rifle & Dagger / Dagger)",
+      "weapons": "Rifle & Dagger / Dagger",
+      "build_url": "https://snowcrows.com/builds/raids/thief/power-deadeye"
+    },
+    {
+      "profession": "Thief",
+      "elite_spec": "Deadeye",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
       "description": "Power Deadeye (Spear)",
       "weapons": "Spear",
       "build_url": "https://snowcrows.com/builds/raids/thief/power-deadeye-spear"
@@ -1277,24 +1637,68 @@
     {
       "profession": "Thief",
       "elite_spec": "Deadeye",
-      "role": "Condition",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Power Deadeye (Staff and Dagger / Dagger)",
+      "weapons": "Staff and Dagger / Dagger",
+      "build_url": "https://snowcrows.com/builds/raids/thief/power-deadeye-staff-and-dagger"
+    },
+    {
+      "profession": "Thief",
+      "elite_spec": "Deadeye",
+      "role": "Power",
       "role_type": "DPS",
       "provides_quickness": true,
       "provides_alacrity": false,
-      "description": "Condition Quickness Deadeye (Scepter / Pistol)",
-      "weapons": "Scepter / Pistol",
-      "build_url": "https://snowcrows.com/builds/raids/thief/condition-quickness-deadeye-scepter"
+      "description": "Power Quickness Deadeye (Axe / Pistol & Dagger)",
+      "weapons": "Axe / Pistol & Dagger",
+      "build_url": "https://snowcrows.com/builds/raids/thief/power-quickness-deadeye-axe"
+    },
+    {
+      "profession": "Thief",
+      "elite_spec": "Deadeye",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": true,
+      "provides_alacrity": false,
+      "description": "Power Quickness Deadeye (Dagger Only)",
+      "weapons": "Dagger Only",
+      "build_url": "https://snowcrows.com/builds/raids/thief/power-quickness-deadeye-dagger"
+    },
+    {
+      "profession": "Thief",
+      "elite_spec": "Deadeye",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": true,
+      "provides_alacrity": false,
+      "description": "Power Quickness Deadeye (Rifle)",
+      "weapons": "Rifle",
+      "build_url": "https://snowcrows.com/builds/raids/thief/power-quickness-deadeye-rifle"
+    },
+    {
+      "profession": "Thief",
+      "elite_spec": "Deadeye",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": true,
+      "provides_alacrity": false,
+      "description": "Power Quickness Deadeye (Spear & Dagger / Pistol)",
+      "weapons": "Spear & Dagger / Pistol",
+      "build_url": "https://snowcrows.com/builds/raids/thief/power-quickness-deadeye"
     },
     {
       "profession": "Thief",
       "elite_spec": "Specter",
-      "role": "Condition",
-      "role_type": "DPS",
+      "role": "Healer",
+      "role_type": "Healer",
       "provides_quickness": false,
-      "provides_alacrity": false,
-      "description": "Condition Specter (Spear)",
-      "weapons": "Spear",
-      "build_url": "https://snowcrows.com/builds/raids/thief/condition-spectre"
+      "provides_alacrity": true,
+      "description": "Celestial Alacrity Specter",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/thief/celestial-alacrity-spectre"
     },
     {
       "profession": "Thief",
@@ -1306,17 +1710,6 @@
       "description": "Condition Alacrity Specter (Dagger / Dagger)",
       "weapons": "Dagger / Dagger",
       "build_url": "https://snowcrows.com/builds/raids/thief/condition-alacrity-spectre"
-    },
-    {
-      "profession": "Thief",
-      "elite_spec": "Specter",
-      "role": "Healer",
-      "role_type": "Healer",
-      "provides_quickness": false,
-      "provides_alacrity": true,
-      "description": "Heal Alacrity Specter",
-      "weapons": "",
-      "build_url": "https://snowcrows.com/builds/raids/thief/heal-alacrity-spectre"
     },
     {
       "profession": "Thief",
@@ -1335,6 +1728,17 @@
       "role": "Condition",
       "role_type": "DPS",
       "provides_quickness": false,
+      "provides_alacrity": true,
+      "description": "Condition Alacrity Specter (Spear)",
+      "weapons": "Spear",
+      "build_url": "https://snowcrows.com/builds/raids/thief/condition-alacrity-spectre-spear"
+    },
+    {
+      "profession": "Thief",
+      "elite_spec": "Specter",
+      "role": "Condition",
+      "role_type": "DPS",
+      "provides_quickness": false,
       "provides_alacrity": false,
       "description": "Condition Specter (Scepter / Dagger)",
       "weapons": "Scepter / Dagger",
@@ -1343,24 +1747,57 @@
     {
       "profession": "Thief",
       "elite_spec": "Specter",
+      "role": "Condition",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Condition Specter (Spear)",
+      "weapons": "Spear",
+      "build_url": "https://snowcrows.com/builds/raids/thief/condition-spectre"
+    },
+    {
+      "profession": "Thief",
+      "elite_spec": "Specter",
       "role": "Healer",
       "role_type": "Healer",
       "provides_quickness": false,
       "provides_alacrity": true,
-      "description": "Celestial Alacrity Specter",
+      "description": "Heal Alacrity Specter",
       "weapons": "",
-      "build_url": "https://snowcrows.com/builds/raids/thief/celestial-alacrity-spectre"
+      "build_url": "https://snowcrows.com/builds/raids/thief/heal-alacrity-spectre"
     },
     {
-      "profession": "Guardian",
-      "elite_spec": "Dragonhunter",
+      "profession": "Thief",
+      "elite_spec": "Antiquary",
+      "role": "Condition",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Condition Antiquary",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/thief/condition-antiquary"
+    },
+    {
+      "profession": "Thief",
+      "elite_spec": "Antiquary",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": true,
+      "description": "Power Alacrity Antiquary",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/thief/power-alacrity-antiquary"
+    },
+    {
+      "profession": "Thief",
+      "elite_spec": "Antiquary",
       "role": "Power",
       "role_type": "DPS",
       "provides_quickness": false,
       "provides_alacrity": false,
-      "description": "Power Dragonhunter (Spear & Greatsword)",
-      "weapons": "Spear & Greatsword",
-      "build_url": "https://snowcrows.com/builds/raids/guardian/power-dragonhunter"
+      "description": "Power Antiquary",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/thief/power-antiquary"
     },
     {
       "profession": "Guardian",
@@ -1380,9 +1817,31 @@
       "role_type": "DPS",
       "provides_quickness": false,
       "provides_alacrity": false,
+      "description": "Power Dragonhunter (Spear & Greatsword)",
+      "weapons": "Spear & Greatsword",
+      "build_url": "https://snowcrows.com/builds/raids/guardian/power-dragonhunter"
+    },
+    {
+      "profession": "Guardian",
+      "elite_spec": "Dragonhunter",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
       "description": "Power Dragonhunter Virtues",
       "weapons": "",
       "build_url": "https://snowcrows.com/builds/raids/guardian/power-dragonhunter-virtues-spear"
+    },
+    {
+      "profession": "Guardian",
+      "elite_spec": "Firebrand",
+      "role": "Healer",
+      "role_type": "Healer",
+      "provides_quickness": true,
+      "provides_alacrity": false,
+      "description": "Celestial Quickness Firebrand",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/guardian/celestial-quickness-firebrand"
     },
     {
       "profession": "Guardian",
@@ -1419,28 +1878,6 @@
     },
     {
       "profession": "Guardian",
-      "elite_spec": "Firebrand",
-      "role": "Healer",
-      "role_type": "Healer",
-      "provides_quickness": true,
-      "provides_alacrity": false,
-      "description": "Celestial Quickness Firebrand",
-      "weapons": "",
-      "build_url": "https://snowcrows.com/builds/raids/guardian/celestial-quickness-firebrand"
-    },
-    {
-      "profession": "Guardian",
-      "elite_spec": "Willbender",
-      "role": "Power",
-      "role_type": "DPS",
-      "provides_quickness": false,
-      "provides_alacrity": true,
-      "description": "Power Alacrity Willbender",
-      "weapons": "",
-      "build_url": "https://snowcrows.com/builds/raids/guardian/power-alacrity-willbender"
-    },
-    {
-      "profession": "Guardian",
       "elite_spec": "Willbender",
       "role": "Condition",
       "role_type": "DPS",
@@ -1453,13 +1890,13 @@
     {
       "profession": "Guardian",
       "elite_spec": "Willbender",
-      "role": "Power",
+      "role": "Condition",
       "role_type": "DPS",
       "provides_quickness": false,
       "provides_alacrity": false,
-      "description": "Power Willbender",
-      "weapons": "",
-      "build_url": "https://snowcrows.com/builds/raids/guardian/power-willbender"
+      "description": "Condition Willbender (Scepter / Pistol & Pistol / Torch)",
+      "weapons": "Scepter / Pistol & Pistol / Torch",
+      "build_url": "https://snowcrows.com/builds/raids/guardian/condition-willbender-scepter"
     },
     {
       "profession": "Guardian",
@@ -1475,13 +1912,90 @@
     {
       "profession": "Guardian",
       "elite_spec": "Willbender",
-      "role": "Condition",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": true,
+      "description": "Power Alacrity Willbender",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/guardian/power-alacrity-willbender"
+    },
+    {
+      "profession": "Guardian",
+      "elite_spec": "Willbender",
+      "role": "Power",
       "role_type": "DPS",
       "provides_quickness": false,
       "provides_alacrity": false,
-      "description": "Condition Willbender (Scepter / Pistol & Pistol / Torch)",
-      "weapons": "Scepter / Pistol & Pistol / Torch",
-      "build_url": "https://snowcrows.com/builds/raids/guardian/condition-willbender-scepter"
+      "description": "Power Willbender",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/guardian/power-willbender"
+    },
+    {
+      "profession": "Guardian",
+      "elite_spec": "Luminary",
+      "role": "Healer",
+      "role_type": "Healer",
+      "provides_quickness": false,
+      "provides_alacrity": true,
+      "description": "Heal Alacrity Luminary",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/guardian/heal-alacrity-luminary"
+    },
+    {
+      "profession": "Guardian",
+      "elite_spec": "Luminary",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": true,
+      "description": "Power Alacrity Luminary",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/guardian/power-alacrity-luminary"
+    },
+    {
+      "profession": "Guardian",
+      "elite_spec": "Luminary",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Power Luminary",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/guardian/power-luminary"
+    },
+    {
+      "profession": "Revenant",
+      "elite_spec": "Herald",
+      "role": "Condition",
+      "role_type": "DPS",
+      "provides_quickness": true,
+      "provides_alacrity": false,
+      "description": "Condition Quickness Herald (Shortbow & Mace / Axe)",
+      "weapons": "Shortbow & Mace / Axe",
+      "build_url": "https://snowcrows.com/builds/raids/revenant/condition-quickness-herald-shortbow"
+    },
+    {
+      "profession": "Revenant",
+      "elite_spec": "Herald",
+      "role": "Condition",
+      "role_type": "DPS",
+      "provides_quickness": true,
+      "provides_alacrity": false,
+      "description": "Condition Quickness Herald (Spear & Mace / Axe)",
+      "weapons": "Spear & Mace / Axe",
+      "build_url": "https://snowcrows.com/builds/raids/revenant/condition-quickness-herald"
+    },
+    {
+      "profession": "Revenant",
+      "elite_spec": "Herald",
+      "role": "Condition",
+      "role_type": "DPS",
+      "provides_quickness": true,
+      "provides_alacrity": false,
+      "description": "Condition Quickness Herald (Spear Only)",
+      "weapons": "Spear Only",
+      "build_url": "https://snowcrows.com/builds/raids/revenant/condition-quickness-herald-spear"
     },
     {
       "profession": "Revenant",
@@ -1508,17 +2022,6 @@
     {
       "profession": "Revenant",
       "elite_spec": "Herald",
-      "role": "Condition",
-      "role_type": "DPS",
-      "provides_quickness": true,
-      "provides_alacrity": false,
-      "description": "Condition Quickness Herald (Spear & Mace / Axe)",
-      "weapons": "Spear & Mace / Axe",
-      "build_url": "https://snowcrows.com/builds/raids/revenant/condition-quickness-herald"
-    },
-    {
-      "profession": "Revenant",
-      "elite_spec": "Herald",
       "role": "Power",
       "role_type": "DPS",
       "provides_quickness": true,
@@ -1530,17 +2033,6 @@
     {
       "profession": "Revenant",
       "elite_spec": "Herald",
-      "role": "Condition",
-      "role_type": "DPS",
-      "provides_quickness": true,
-      "provides_alacrity": false,
-      "description": "Condition Quickness Herald (Shortbow & Mace / Axe)",
-      "weapons": "Shortbow & Mace / Axe",
-      "build_url": "https://snowcrows.com/builds/raids/revenant/condition-quickness-herald-shortbow"
-    },
-    {
-      "profession": "Revenant",
-      "elite_spec": "Herald",
       "role": "Power",
       "role_type": "DPS",
       "provides_quickness": true,
@@ -1548,50 +2040,6 @@
       "description": "Power Quickness Herald (Sword Only)",
       "weapons": "Sword Only",
       "build_url": "https://snowcrows.com/builds/raids/revenant/power-quickness-herald-sword"
-    },
-    {
-      "profession": "Revenant",
-      "elite_spec": "Herald",
-      "role": "Condition",
-      "role_type": "DPS",
-      "provides_quickness": true,
-      "provides_alacrity": false,
-      "description": "Condition Quickness Herald (Spear Only)",
-      "weapons": "Spear Only",
-      "build_url": "https://snowcrows.com/builds/raids/revenant/condition-quickness-herald-spear"
-    },
-    {
-      "profession": "Revenant",
-      "elite_spec": "Renegade",
-      "role": "Power",
-      "role_type": "DPS",
-      "provides_quickness": false,
-      "provides_alacrity": true,
-      "description": "Power Alacrity Renegade",
-      "weapons": "",
-      "build_url": "https://snowcrows.com/builds/raids/revenant/power-alacrity-renegade"
-    },
-    {
-      "profession": "Revenant",
-      "elite_spec": "Renegade",
-      "role": "Condition",
-      "role_type": "DPS",
-      "provides_quickness": false,
-      "provides_alacrity": false,
-      "description": "Condition Renegade (Spear & Mace / Axe)",
-      "weapons": "Spear & Mace / Axe",
-      "build_url": "https://snowcrows.com/builds/raids/revenant/condition-renegade"
-    },
-    {
-      "profession": "Revenant",
-      "elite_spec": "Renegade",
-      "role": "Healer",
-      "role_type": "Healer",
-      "provides_quickness": false,
-      "provides_alacrity": true,
-      "description": "Heal Alacrity Renegade",
-      "weapons": "",
-      "build_url": "https://snowcrows.com/builds/raids/revenant/heal-alacrity-renegade"
     },
     {
       "profession": "Revenant",
@@ -1611,9 +2059,53 @@
       "role_type": "DPS",
       "provides_quickness": false,
       "provides_alacrity": false,
+      "description": "Condition Renegade (Spear & Mace / Axe)",
+      "weapons": "Spear & Mace / Axe",
+      "build_url": "https://snowcrows.com/builds/raids/revenant/condition-renegade"
+    },
+    {
+      "profession": "Revenant",
+      "elite_spec": "Renegade",
+      "role": "Condition",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
       "description": "Condition Renegade (Spear Only)",
       "weapons": "Spear Only",
       "build_url": "https://snowcrows.com/builds/raids/revenant/condition-renegade-spear-only"
+    },
+    {
+      "profession": "Revenant",
+      "elite_spec": "Renegade",
+      "role": "Healer",
+      "role_type": "Healer",
+      "provides_quickness": false,
+      "provides_alacrity": true,
+      "description": "Heal Alacrity Renegade",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/revenant/heal-alacrity-renegade"
+    },
+    {
+      "profession": "Revenant",
+      "elite_spec": "Renegade",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": true,
+      "description": "Power Alacrity Renegade",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/revenant/power-alacrity-renegade"
+    },
+    {
+      "profession": "Revenant",
+      "elite_spec": "Vindicator",
+      "role": "Healer",
+      "role_type": "Healer",
+      "provides_quickness": false,
+      "provides_alacrity": true,
+      "description": "Heal Alacrity Vindicator",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/revenant/heal-alacrity-vindicator"
     },
     {
       "profession": "Revenant",
@@ -1628,14 +2120,25 @@
     },
     {
       "profession": "Revenant",
-      "elite_spec": "Vindicator",
-      "role": "Healer",
-      "role_type": "Healer",
+      "elite_spec": "Conduit",
+      "role": "Condition",
+      "role_type": "DPS",
       "provides_quickness": false,
-      "provides_alacrity": true,
-      "description": "Heal Alacrity Vindicator",
+      "provides_alacrity": false,
+      "description": "Condition Conduit",
       "weapons": "",
-      "build_url": "https://snowcrows.com/builds/raids/revenant/heal-alacrity-vindicator"
+      "build_url": "https://snowcrows.com/builds/raids/revenant/condition-conduit"
+    },
+    {
+      "profession": "Revenant",
+      "elite_spec": "Conduit",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Power Conduit",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/revenant/power-conduit"
     },
     {
       "profession": "Warrior",
@@ -1651,17 +2154,6 @@
     {
       "profession": "Warrior",
       "elite_spec": "Berserker",
-      "role": "Power",
-      "role_type": "DPS",
-      "provides_quickness": false,
-      "provides_alacrity": false,
-      "description": "Power Berserker (Spear & Axe / Axe)",
-      "weapons": "Spear & Axe / Axe",
-      "build_url": "https://snowcrows.com/builds/raids/warrior/power-berserker"
-    },
-    {
-      "profession": "Warrior",
-      "elite_spec": "Berserker",
       "role": "Condition",
       "role_type": "DPS",
       "provides_quickness": false,
@@ -1669,17 +2161,6 @@
       "description": "Condition Berserker",
       "weapons": "",
       "build_url": "https://snowcrows.com/builds/raids/warrior/condition-berserker"
-    },
-    {
-      "profession": "Warrior",
-      "elite_spec": "Berserker",
-      "role": "Power",
-      "role_type": "DPS",
-      "provides_quickness": true,
-      "provides_alacrity": false,
-      "description": "Power Quickness Berserker (Spear & Axe / Axe)",
-      "weapons": "Spear & Axe / Axe",
-      "build_url": "https://snowcrows.com/builds/raids/warrior/power-quickness-berserker"
     },
     {
       "profession": "Warrior",
@@ -1699,9 +2180,42 @@
       "role_type": "DPS",
       "provides_quickness": false,
       "provides_alacrity": false,
+      "description": "Power Berserker (Axe / Axe & Axe / Mace)",
+      "weapons": "Axe / Axe & Axe / Mace",
+      "build_url": "https://snowcrows.com/builds/raids/warrior/power-berserker-axe-axe-axe-mace"
+    },
+    {
+      "profession": "Warrior",
+      "elite_spec": "Berserker",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
       "description": "Power Berserker (Greatsword Axe / Axe)",
       "weapons": "Greatsword Axe / Axe",
       "build_url": "https://snowcrows.com/builds/raids/warrior/power-berserker-greatsword"
+    },
+    {
+      "profession": "Warrior",
+      "elite_spec": "Berserker",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Power Berserker (Hammer & Axe / Mace)",
+      "weapons": "Hammer & Axe / Mace",
+      "build_url": "https://snowcrows.com/builds/raids/warrior/power-berserker-hammer-axe-mace"
+    },
+    {
+      "profession": "Warrior",
+      "elite_spec": "Berserker",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Power Berserker (Spear & Axe / Axe)",
+      "weapons": "Spear & Axe / Axe",
+      "build_url": "https://snowcrows.com/builds/raids/warrior/power-berserker"
     },
     {
       "profession": "Warrior",
@@ -1719,33 +2233,11 @@
       "elite_spec": "Berserker",
       "role": "Power",
       "role_type": "DPS",
-      "provides_quickness": false,
+      "provides_quickness": true,
       "provides_alacrity": false,
-      "description": "Power Berserker (Axe / Axe & Axe / Mace)",
-      "weapons": "Axe / Axe & Axe / Mace",
-      "build_url": "https://snowcrows.com/builds/raids/warrior/power-berserker-axe-axe-axe-mace"
-    },
-    {
-      "profession": "Warrior",
-      "elite_spec": "Berserker",
-      "role": "Power",
-      "role_type": "DPS",
-      "provides_quickness": false,
-      "provides_alacrity": false,
-      "description": "Power Berserker (Hammer & Axe / Mace)",
-      "weapons": "Hammer & Axe / Mace",
-      "build_url": "https://snowcrows.com/builds/raids/warrior/power-berserker-hammer-axe-mace"
-    },
-    {
-      "profession": "Warrior",
-      "elite_spec": "Spellbreaker",
-      "role": "Power",
-      "role_type": "DPS",
-      "provides_quickness": false,
-      "provides_alacrity": false,
-      "description": "Power Spellbreaker (Hammer & Dagger / Mace)",
-      "weapons": "Hammer & Dagger / Mace",
-      "build_url": "https://snowcrows.com/builds/raids/warrior/power-spellbreaker-hammer"
+      "description": "Power Quickness Berserker (Spear & Axe / Axe)",
+      "weapons": "Spear & Axe / Axe",
+      "build_url": "https://snowcrows.com/builds/raids/warrior/power-quickness-berserker"
     },
     {
       "profession": "Warrior",
@@ -1760,6 +2252,39 @@
     },
     {
       "profession": "Warrior",
+      "elite_spec": "Spellbreaker",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Power Spellbreaker (Hammer & Dagger / Mace)",
+      "weapons": "Hammer & Dagger / Mace",
+      "build_url": "https://snowcrows.com/builds/raids/warrior/power-spellbreaker-hammer"
+    },
+    {
+      "profession": "Warrior",
+      "elite_spec": "Bladesworn",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": true,
+      "description": "Power Alacrity Bladesworn Overcharged Cartridges",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/warrior/power-alacrity-bladesworn-overcharged"
+    },
+    {
+      "profession": "Warrior",
+      "elite_spec": "Bladesworn",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": true,
+      "description": "Power Alacrity Bladesworn Signets",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/warrior/power-alacrity-bladesworn"
+    },
+    {
+      "profession": "Warrior",
       "elite_spec": "Bladesworn",
       "role": "Power",
       "role_type": "DPS",
@@ -1771,25 +2296,14 @@
     },
     {
       "profession": "Warrior",
-      "elite_spec": "Bladesworn",
-      "role": "Power",
-      "role_type": "DPS",
+      "elite_spec": "Paragon",
+      "role": "Healer",
+      "role_type": "Healer",
       "provides_quickness": false,
       "provides_alacrity": true,
-      "description": "Power Alacrity Bladesworn",
+      "description": "Heal Alacrity Paragon",
       "weapons": "",
-      "build_url": "https://snowcrows.com/builds/raids/warrior/power-alacrity-bladesworn"
-    },
-    {
-      "profession": "Warrior",
-      "elite_spec": "Bladesworn",
-      "role": "Power",
-      "role_type": "DPS",
-      "provides_quickness": false,
-      "provides_alacrity": false,
-      "description": "Power Bladesworn Lush Forest",
-      "weapons": "",
-      "build_url": "https://snowcrows.com/builds/raids/warrior/power-bladesworn-lush-forest"
+      "build_url": "https://snowcrows.com/builds/raids/warrior/heal-alacrity-paragon"
     },
     {
       "profession": "Elementalist",
@@ -1842,8 +2356,8 @@
       "role_type": "DPS",
       "provides_quickness": true,
       "provides_alacrity": true,
-      "description": "Beginner Power Boon Chronomancer",
-      "weapons": "",
+      "description": "Beginner Power Boon Chronomancer (Spear & Dagger / Sword)",
+      "weapons": "Spear & Dagger / Sword",
       "build_url": "https://snowcrows.com/builds/raids/mesmer/beginner-power-boon-chronomancer"
     },
     {
@@ -1924,6 +2438,39 @@
       "build_url": "https://snowcrows.com/builds/raids/ranger/beginner-condition-quickness-untamed"
     },
     {
+      "profession": "Thief",
+      "elite_spec": "Daredevil",
+      "role": "Condition",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Beginner Condition Daredevil",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/thief/beginner-condition-daredevil"
+    },
+    {
+      "profession": "Thief",
+      "elite_spec": "Daredevil",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Beginner Power Daredevil",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/thief/beginner-power-daredevil"
+    },
+    {
+      "profession": "Thief",
+      "elite_spec": "Specter",
+      "role": "Condition",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Beginner Condition Specter",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/thief/beginner-condition-specter"
+    },
+    {
       "profession": "Guardian",
       "elite_spec": "Dragonhunter",
       "role": "Power",
@@ -2002,6 +2549,17 @@
     },
     {
       "profession": "Elementalist",
+      "elite_spec": "Tempest",
+      "role": "Healer",
+      "role_type": "Healer",
+      "provides_quickness": false,
+      "provides_alacrity": true,
+      "description": "Heal Alacrity Tempest (Staff)",
+      "weapons": "Staff",
+      "build_url": "https://snowcrows.com/builds/raids/elementalist/heal-alacrity-tempest-staff"
+    },
+    {
+      "profession": "Elementalist",
       "elite_spec": "Catalyst",
       "role": "Power",
       "role_type": "DPS",
@@ -2017,10 +2575,43 @@
       "role": "Condition",
       "role_type": "DPS",
       "provides_quickness": false,
+      "provides_alacrity": true,
+      "description": "Condition Alacrity Mirage (Dune Cloak with Staff & Axe / Torch)",
+      "weapons": "Dune Cloak with Staff & Axe / Torch",
+      "build_url": "https://snowcrows.com/builds/raids/mesmer/condition-alacrity-mirage-dune-cloak"
+    },
+    {
+      "profession": "Mesmer",
+      "elite_spec": "Mirage",
+      "role": "Condition",
+      "role_type": "DPS",
+      "provides_quickness": false,
       "provides_alacrity": false,
       "description": "Condition Mirage (Chaos with Staff & Axe / Pistol)",
       "weapons": "Chaos with Staff & Axe / Pistol",
       "build_url": "https://snowcrows.com/builds/raids/mesmer/condition-mirage"
+    },
+    {
+      "profession": "Mesmer",
+      "elite_spec": "Mirage",
+      "role": "Condition",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Condition Mirage (Illusions with Torch & Axe / Pistol)",
+      "weapons": "Illusions with Torch & Axe / Pistol",
+      "build_url": "https://snowcrows.com/builds/raids/mesmer/condition-mirage-illusions-axe"
+    },
+    {
+      "profession": "Mesmer",
+      "elite_spec": "Mirage",
+      "role": "Healer",
+      "role_type": "Healer",
+      "provides_quickness": false,
+      "provides_alacrity": true,
+      "description": "Heal Alacrity Mirage",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/mesmer/heal-alacrity-mirage"
     },
     {
       "profession": "Mesmer",
@@ -2032,17 +2623,6 @@
       "description": "Power Mirage",
       "weapons": "",
       "build_url": "https://snowcrows.com/builds/raids/mesmer/power-mirage"
-    },
-    {
-      "profession": "Mesmer",
-      "elite_spec": "Mirage",
-      "role": "Condition",
-      "role_type": "DPS",
-      "provides_quickness": false,
-      "provides_alacrity": false,
-      "description": "Condition Mirage (Illusions with Axe / Pistol & Torch)",
-      "weapons": "Illusions with Axe / Pistol & Torch",
-      "build_url": "https://snowcrows.com/builds/raids/mesmer/condition-mirage-illusions-axe"
     },
     {
       "profession": "Engineer",
@@ -2057,6 +2637,17 @@
     },
     {
       "profession": "Engineer",
+      "elite_spec": "",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Power Engineer",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/engineer/power-engineer"
+    },
+    {
+      "profession": "Engineer",
       "elite_spec": "Holosmith",
       "role": "Condition",
       "role_type": "DPS",
@@ -2065,6 +2656,17 @@
       "description": "Condition Holosmith (Pistol / Pistol)",
       "weapons": "Pistol / Pistol",
       "build_url": "https://snowcrows.com/builds/raids/engineer/condition-holosmith-pistol"
+    },
+    {
+      "profession": "Ranger",
+      "elite_spec": "Soulbeast",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Power Soulbeast (Spear & Axe / Axe)",
+      "weapons": "Spear & Axe / Axe",
+      "build_url": "https://snowcrows.com/builds/raids/ranger/power-soulbeast"
     },
     {
       "profession": "Ranger",
@@ -2084,9 +2686,9 @@
       "role_type": "DPS",
       "provides_quickness": true,
       "provides_alacrity": false,
-      "description": "Power Quickness Untamed (Spear & Sword / Axe)",
-      "weapons": "Spear & Sword / Axe",
-      "build_url": "https://snowcrows.com/builds/raids/ranger/power-quickness-untamed-spear-sword-axe"
+      "description": "Power Quickness Untamed (Spear & Mace / Mace)",
+      "weapons": "Spear & Mace / Mace",
+      "build_url": "https://snowcrows.com/builds/raids/ranger/power-quickness-untamed-spear-mace-mace"
     },
     {
       "profession": "Ranger",
@@ -2095,9 +2697,9 @@
       "role_type": "DPS",
       "provides_quickness": true,
       "provides_alacrity": false,
-      "description": "Power Quickness Untamed (Spear & Mace / Mace)",
-      "weapons": "Spear & Mace / Mace",
-      "build_url": "https://snowcrows.com/builds/raids/ranger/power-quickness-untamed-spear-mace-mace"
+      "description": "Power Quickness Untamed (Spear & Sword / Axe)",
+      "weapons": "Spear & Sword / Axe",
+      "build_url": "https://snowcrows.com/builds/raids/ranger/power-quickness-untamed-spear-sword-axe"
     },
     {
       "profession": "Revenant",
@@ -2120,6 +2722,17 @@
       "description": "Condition Quickness Berserker",
       "weapons": "",
       "build_url": "https://snowcrows.com/builds/raids/warrior/condition-quickness-berserker"
+    },
+    {
+      "profession": "Warrior",
+      "elite_spec": "Bladesworn",
+      "role": "Power",
+      "role_type": "DPS",
+      "provides_quickness": false,
+      "provides_alacrity": false,
+      "description": "Power Bladesworn Lush Forest",
+      "weapons": "",
+      "build_url": "https://snowcrows.com/builds/raids/warrior/power-bladesworn-lush-forest"
     }
   ]
 }

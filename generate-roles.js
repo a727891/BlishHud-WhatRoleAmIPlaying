@@ -59,7 +59,18 @@ const ELITE_SPECS = [
   { "name": "Harbinger", "id": 75, "profession": "Necromancer", "icon": "2479359", "background": "2503617" },
   { "name": "Herald", "id": 52, "profession": "Revenant", "icon": "1128576", "background": "1012083" },
   { "name": "Renegade", "id": 63, "profession": "Revenant", "icon": "1770218", "background": "2479317" },
-  { "name": "Vindicator", "id": 76, "profession": "Revenant", "icon": "2491559", "background": "2491511" }
+  { "name": "Vindicator", "id": 76, "profession": "Revenant", "icon": "2491559", "background": "2491511" },
+
+  { "name": "Luminary", "id": 1, "profession":"Guardian", "icon": "156633", "background":"" },
+  { "name": "Paragon", "id": 2, "profession":"Warrior", "icon": "156642", "background":"" },
+  { "name": "Amalgam", "id": 3, "profession":"Engineer", "icon": "156631", "background":"" },
+  { "name": "Galeshot", "id": 4, "profession":"Ranger", "icon": "156639", "background":"" },
+  { "name": "Antiquary", "id": 5, "profession":"Thief", "icon": "103581", "background":"" },
+  { "name": "Evoker", "id": 6, "profession":"Elementalist", "icon": "156629", "background":"" },
+  { "name": "Troubadour", "id": 7, "profession":"Mesmer", "icon": "156635", "background":"" },
+  { "name": "Ritualist", "id": 8, "profession":"Necromancer", "icon": "156637", "background":"" },
+  { "name": "Conduit", "id": 9, "profession":"Revenant", "icon": "965717", "background":"" },
+
 ];
 
 function determineRoleType(roleText, buildName) {
