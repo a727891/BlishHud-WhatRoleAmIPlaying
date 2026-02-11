@@ -242,28 +242,28 @@
       "name": "Luminary",
       "id": 81,
       "profession": "Guardian",
-      "icon": "3680069",
+      "icon": "3680067",
       "background": "3679907"
     },
     {
       "name": "Paragon",
       "id": 74,
       "profession": "Warrior",
-      "icon": "3680093",
+      "icon": "3680091",
       "background": "3679913"
     },
     {
       "name": "Amalgam",
       "id": 75,
       "profession": "Engineer",
-      "icon": "3680065",
+      "icon": "3680063",
       "background": "3679906"
     },
     {
       "name": "Galeshot",
       "id": 78,
       "profession": "Ranger",
-      "icon": "3680081",
+      "icon": "3680079",
       "background": "3679910"
     },
     {
@@ -277,28 +277,28 @@
       "name": "Evoker",
       "id": 80,
       "profession": "Elementalist",
-      "icon": "3680061",
+      "icon": "3680059",
       "background": "3679905"
     },
     {
       "name": "Troubadour",
       "id": 73,
       "profession": "Mesmer",
-      "icon": "3680073",
+      "icon": "3680071",
       "background": "3679908"
     },
     {
       "name": "Ritualist",
       "id": 76,
       "profession": "Necromancer",
-      "icon": "3680077",
+      "icon": "3680075",
       "background": "3679909"
     },
     {
       "name": "Conduit",
       "id": 79,
       "profession": "Revenant",
-      "icon": "3680085",
+      "icon": "3680083",
       "background": "3679911"
     }
   ],
